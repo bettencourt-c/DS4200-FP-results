@@ -1,7 +1,7 @@
 // using the following following template: https://observablehq.com/@d3/zoomable-sunburst
 
 d3.json('drug.json').then(data => {
-    const width = 1700;
+    const width = 100%;
     const height = width;
     const radius = width / 5.5;
 
