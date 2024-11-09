@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"$schema": "https://vega.github.io/schema/vega/v5.json", "data": [{"name": "Select_Group_store"}, {"name": "source_0", "values": [{"__count": 1334, "__count_end": 0.4622314622314622, "__count_start": 0.0, "context": "germline", "simple_mutation": "point_mutation"}, {"__count": 2617, "__count_end": 0.9227785613540197, "__count_start": 0.0, "context": "somatic", "simple_mutation": "point_mutation"}, {"__count": 35, "__count_end": 1.0, "__count_start": 0.9876586741889986, "context": "somatic", "simple_mutation": "deletion"}, {"__count": 141, "__count_end": 0.9876586741889986, "__count_start": 0.9379407616361072, "context": "somatic", "simple_mutation": "deletion_insertion"}, {"__count": 1055, "__count_end": 1.0, "__count_start": 0.6344421344421345, "context": "germline", "simple_mutation": "deletion"}, {"__count": 384, "__count_end": 0.6122661122661123, "__count_start": 0.4792099792099792, "context": "germline", "simple_mutation": "duplication"}, {"__count": 64, "__count_end": 0.6344421344421345, "__count_start": 0.6122661122661123, "context": "germline", "simple_mutation": "deletion_insertion"}, {"__count": 49, "__count_end": 0.4792099792099792, "__count_start": 0.4622314622314622, "context": "germline", "simple_mutation": "insertion"}, {"__count": 33, "__count_end": 0.9379407616361072, "__count_start": 0.9263046544428772, "context": "somatic", "simple_mutation": "duplication"}, {"__count": 4, "__count_end": 0.9241889985895627, "__count_start": 0.9227785613540197, "context": "somatic", "simple_mutation": "other"}, {"__count": 6, "__count_end": 0.9263046544428772, "__count_start": 0.9241889985895627, "context": "somatic", "simple_mutation": "insertion"}]}, {"name": "source_0_x_domain_context", "values": [{"context": "germline"}, {"context": "somatic"}]}, {"name": "source_0_color_domain_simple_mutation", "values": [{"simple_mutation": "point_mutation"}, {"simple_mutation": "deletion"}, {"simple_mutation": "deletion_insertion"}, {"simple_mutation": "duplication"}, {"simple_mutation": "insertion"}, {"simple_mutation": "other"}]}], "signals": [{"name": "unit", "value": {}, "on": [{"events": "pointermove", "update": "isTuple(group()) ? group() : unit"}]}, {"name": "Select_Group_simple_mutation_legend", "value": null, "on": [{"events": [{"source": "view", "markname": "simple_mutation_legend_symbols", "type": "click"}, {"source": "view", "markname": "simple_mutation_legend_labels", "type": "click"}, {"source": "view", "markname": "simple_mutation_legend_entries", "type": "click"}], "update": "isDefined(datum.value) ? datum.value : item().items[0].items[0].datum.value", "force": true}, {"events": [{"source": "view", "type": "click"}], "update": "!event.item || !datum ? null : Select_Group_simple_mutation_legend", "force": true}]}, {"name": "Select_Group", "update": "vlSelectionResolve(\"Select_Group_store\", \"union\", true, true)"}, {"name": "Select_Group_tuple", "update": "Select_Group_simple_mutation_legend !== null ? {fields: Select_Group_tuple_fields, values: [Select_Group_simple_mutation_legend]} : null"}, {"name": "Select_Group_tuple_fields", "value": [{"type": "E", "field": "simple_mutation"}]}, {"name": "Select_Group_toggle", "value": false, "on": [{"events": {"merge": [{"source": "view", "type": "click"}]}, "update": "event.shiftKey"}]}, {"name": "Select_Group_modify", "on": [{"events": {"signal": "Select_Group_tuple"}, "update": "modify(\"Select_Group_store\", Select_Group_toggle ? null : Select_Group_tuple, Select_Group_toggle ? null : true, Select_Group_toggle ? Select_Group_tuple : null)"}]}], "marks": [{"type": "rect", "name": "marks", "from": {"data": "source_0"}, "encode": {"update": {"x": {"field": "context", "scale": "x"}, "y2": {"field": "__count_start", "scale": "y"}, "width": {"signal": "max(0.25, bandwidth('x'))"}, "fill": [{"field": "simple_mutation", "scale": "color", "test": "!length(data(\"Select_Group_store\")) || vlSelectionTest(\"Select_Group_store\", datum)"}, {"value": "lightgray"}], "tooltip": {"signal": "{\"Count of Mutation Types: \": format(datum[\"__count\"], \"\"), \"Type of Mutation: \": isValid(datum[\"simple_mutation\"]) ? datum[\"simple_mutation\"] : \"\"+datum[\"simple_mutation\"], \"Heritability: \": isValid(datum[\"context\"]) ? datum[\"context\"] : \"\"+datum[\"context\"]}"}, "y": {"field": "__count_end", "scale": "y"}}}, "style": ["bar"], "interactive": true}], "scales": [{"name": "x", "type": "band", "domain": {"data": "source_0_x_domain_context", "field": "context", "sort": true}, "range": [0, {"signal": "width"}], "paddingOuter": 0.05, "paddingInner": 0.1}, {"name": "y", "type": "linear", "domain": [0, 1], "range": [{"signal": "height"}, 0], "zero": true, "nice": true}, {"name": "color", "type": "ordinal", "domain": {"data": "source_0_color_domain_simple_mutation", "field": "simple_mutation", "sort": true}, "range": ["rgb(51, 34, 136)", "rgb(170, 68, 153)", "rgb(221, 204, 119)", "rgb(204, 102, 119)", "rgb(17, 119, 51)", "rgb(136, 204, 238)"]}], "axes": [{"scale": "y", "tickCount": {"signal": "ceil(height/40)"}, "orient": "left", "minExtent": 0, "labels": false, "grid": true, "ticks": false, "zindex": 0, "aria": false, "maxExtent": 0, "gridScale": "x", "domain": false}, {"scale": "x", "grid": false, "labelAlign": "right", "labelBaseline": "middle", "zindex": 0, "orient": "bottom", "labelAngle": 270, "title": "Context"}, {"scale": "y", "format": ".0%", "grid": false, "orient": "left", "title": "Count of Mutation Types", "labelOverlap": true, "tickCount": {"signal": "ceil(height/40)"}, "zindex": 0}], "title": {"text": "Stacked Bar Chart of Mutation Types by Context", "frame": "group"}, "background": "white", "width": 200, "legends": [{"fill": "color", "symbolType": "square", "title": "simple_mutation", "encode": {"labels": {"name": "simple_mutation_legend_labels", "interactive": true, "update": {"opacity": [{"test": "(!length(data(\"Select_Group_store\")) || (Select_Group[\"simple_mutation\"] && indexof(Select_Group[\"simple_mutation\"], datum.value) >= 0))", "value": 1}, {"value": 0.35}]}}, "symbols": {"name": "simple_mutation_legend_symbols", "interactive": true, "update": {"opacity": [{"test": "(!length(data(\"Select_Group_store\")) || (Select_Group[\"simple_mutation\"] && indexof(Select_Group[\"simple_mutation\"], datum.value) >= 0))", "value": 1}, {"value": 0.35}]}}, "entries": {"name": "simple_mutation_legend_entries", "interactive": true, "update": {"fill": {"value": "transparent"}}}}}], "height": 300, "style": "cell", "config": {"mark": {"opacity": 0.8}}, "padding": 5};
+      var embedOpt = {"mode": "vega"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
