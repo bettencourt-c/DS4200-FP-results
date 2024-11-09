@@ -6,12 +6,19 @@ body {
     color: RGB(44,45,43);
 } 
 
-fig1, .fig2, .fig3, .fig4, .fig5 {
+header {
+    background: RGB(148,44,60);
+    color: RGB(236,236,236);
+    padding: 10px 0;
+    text-align: center;
+} 
+
+fig1, .fig2, .fig3, .fig4, {
     padding: 20px;
     margin: 10px 0;
 }
 
-/* Styling for .fig5 */
+
 .fig5 {
     display: flex;
     flex-direction: column;
@@ -34,46 +41,28 @@ fig1, .fig2, .fig3, .fig4, .fig5 {
 }
     }
 
-    /* Make the SVG scale with its container */
+
+
     svg {
-        width: 100%;         /* Make the SVG fill 100% of the container's width */
-        height: 100%;        /* Make the SVG fill 100% of the container's height */
-        display: block;      /* Ensure the SVG behaves as a block element */
+        width: 100%;
+        height: 100%; 
+        display: block;
     }
 
-header {
-    background: RGB(148,44,60);
-    color: RGB(236,236,236);
-    padding: 10px 0;
-    text-align: center;
-} 
 
-.about-container {
+
+.about-fig1, .about-fig2, .about-fig3, .about-fig4, .about-fig5  {
     display: flex; 
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
     max-width: 1000px; 
     margin: auto;
     background: RGB(236,236,236);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.headshot {
-    width: 300px; 
-    max-width: 100%; 
-    height: auto; 
-    margin-right: 20px; 
-}
-
-.about-text {
-    flex: 1 1 300px; 
-}
-
-.about-text a {
-    color: RGB(148,44,60);
-    text-decoration: none;
 }
 
 .contact-info {
