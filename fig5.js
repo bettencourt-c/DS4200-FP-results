@@ -36,7 +36,7 @@ d3.json('drug.json').then(data => {
 
     const svg = d3.create("svg")
         .attr("viewBox", [-width / 2, -height / 2, width, width])
-        .style("font", "10px sans-serif")
+        .style("font", "8px sans-serif")
         .attr("width", width)
         .attr("height", height);
 
