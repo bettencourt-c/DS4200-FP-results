@@ -18,6 +18,21 @@ fig1, .fig2, .fig3, .fig4, {
     margin: 10px 0;
 }
 
+.about-fig1, .about-fig2, .about-fig3, .about-fig4, .about-fig5  {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1400px; 
+    margin: auto;
+    background: RGB(236,236,236);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 
 .fig5 {
     display: flex;
@@ -32,7 +47,7 @@ fig1, .fig2, .fig3, .fig4, {
         display: flex; 
         flex-wrap: wrap;
         align-items: center;
-        max-width: 1000px; 
+        max-width: 1400px; 
         margin: auto;
         background: RGB(236,236,236);
         padding: 20px;
@@ -49,21 +64,6 @@ fig1, .fig2, .fig3, .fig4, {
         display: block;
     }
 
-
-
-.about-fig1, .about-fig2, .about-fig3, .about-fig4, .about-fig5  {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-    max-width: 1000px; 
-    margin: auto;
-    background: RGB(236,236,236);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
 .contact-info {
     display: flex; 
