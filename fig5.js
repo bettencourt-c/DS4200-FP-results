@@ -1,9 +1,9 @@
 // using the following following template: https://observablehq.com/@d3/zoomable-sunburst
 
 d3.json('drug.json').then(data => {
-    const width = 100%;
+    const width = 1500;
     const height = width;
-    const radius = width / 5.5;
+    const radius = width / 6;
 
     const colorArray = [
         'rgb(136, 34, 85)',
