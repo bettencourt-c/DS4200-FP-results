@@ -13,12 +13,7 @@ header {
     text-align: center;
 } 
 
-fig1, .fig2, .fig3, .fig4, {
-    padding: 20px;
-    margin: 10px 0;
-}
-
-.about-fig1, .about-fig2, .about-fig3, .about-fig4, .about-fig5  {
+body  {
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
@@ -32,18 +27,39 @@ fig1, .fig2, .fig3, .fig4, {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
-.fig5 {
+.about-fig1, .about-fig4 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    min-height: 500px;
 }
 
-    #chart-container {
+.about-fig2, .about-fig3 {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#fig1-chart {
+    width: 1000px;
+    height: 500px;
+}
+
+#fig2-chart {
+    width: 400px;
+    height: 400px;
+}
+
+#fig3-chart {
+    width: 600px;
+    height: 500px;
+}
+
+#fig4-chart {
+    width: 600px;
+    height: 1500px;
+}
+
+.fig5 #chart-container {
         display: flex; 
         flex-wrap: wrap;
         align-items: center;
@@ -54,9 +70,6 @@ fig1, .fig2, .fig3, .fig4, {
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-    }
-
-
 
 #fig5-chart svg {
         width: 100%;
