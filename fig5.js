@@ -69,6 +69,31 @@ d3.json('drug.json').then(data => {
         .attr("transform", d => labelTransform(d.current))
         .text(d => d.data.name);
 
+    label.each(function(d) {
+        const textElement = d3.select(this);
+        const words = d.data.name.split(" ");
+        const maxLength = 12; // Max number of characters per line
+        let lines = [];
+
+        let currentLine = "";
+        words.forEach(word => {
+            if ((currentLine + word).length <= maxLength) {
+                currentLine += (currentLine ? " " : "") + word;
+            } else {
+                lines.push(currentLine);
+                currentLine = word;
+            }
+        });
+        if (currentLine) lines.push(currentLine);
+
+        textElement.text(""); // Clear the current text
+        lines.forEach((line, i) => {
+            textElement.append("tspan")
+                .attr("x", 0)
+                .attr("dy", i === 0 ? 0 : "1.2em") // Line spacing
+                .text(line);
+        });
+    });
 
     const parent = svg.append("circle")
         .datum(root)
