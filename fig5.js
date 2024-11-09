@@ -3,7 +3,7 @@
 d3.json('drug.json').then(data => {
     const width = 1200;
     const height = width;
-    const radius = width / 4;
+    const radius = width / 5;
 
     const colorArray = [
         'rgb(136, 34, 85)',
