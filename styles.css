@@ -22,11 +22,16 @@ fig1, .fig2, .fig3, .fig4, .fig5 {
 }
 
     #chart-container {
-        width: 80%;          /* Make the container 80% of the parent element's width */
-        max-width: 1000px;   /* Limit the maximum width of the container */
-        height: 600px;       /* Set a fixed height for the container */
-        margin: 0 auto;      /* Center the container */
-        padding: 20px;       /* Add some padding around the chart */
+        display: flex; 
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 1000px; 
+        margin: auto;
+        background: RGB(236,236,236);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
     }
 
     /* Make the SVG scale with its container */
