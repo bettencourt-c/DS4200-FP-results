@@ -5,7 +5,18 @@ d3.json('drug.json').then(data => {
     const height = width;
     const radius = width / 6;
 
-    const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
+    const colorArray = [
+        'rgb(136, 34, 85)',
+        'rgb(170, 68, 153)',
+        'rgb(204, 102, 119)',
+        'rgb(221, 204, 119)',
+        'rgb(136, 204, 238)',
+        'rgb(68, 170, 153)',
+        'rgb(17, 119, 51)',
+        'rgb(51, 34, 136)',
+    ];
+
+    const color = d3.scaleOrdinal(colorArray);
 
     const hierarchy = d3.hierarchy(data)
         .sum(d => d.value)
