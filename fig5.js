@@ -3,7 +3,7 @@
 d3.json('drug.json').then(data => {
     const width = 1200;
     const height = width;
-    const radius = width / 5;
+    const radius = width / 5.5;
 
     const colorArray = [
         'rgb(136, 34, 85)',
@@ -36,7 +36,7 @@ d3.json('drug.json').then(data => {
 
     const svg = d3.create("svg")
         .attr("viewBox", [-width / 2, -height / 2, width, width])
-        .style("font", "10px sans-serif")
+        .style("font", "9px sans-serif")
         .attr("width", width)
         .attr("height", height);
 
