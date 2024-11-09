@@ -36,7 +36,7 @@ d3.json('drug.json').then(data => {
 
     const svg = d3.create("svg")
         .attr("viewBox", [-width / 2, -height / 2, width, width])
-        .style("font", "12px sans-serif")
+        .style("font", "10px sans-serif")
         .attr("width", width)
         .attr("height", height);
 
@@ -61,20 +61,12 @@ d3.json('drug.json').then(data => {
         .attr("pointer-events", "none")
         .attr("text-anchor", "middle")
         .style("user-select", "none")
-        .selectAll("foreignObject")
+        .selectAll("text")
         .data(root.descendants().slice(1))
-        .join("foreignObject")
-        .attr("x", d => labelTransform(d.current).x - 50)  
-        .attr("y", d => labelTransform(d.current).y - 10)
-        .attr("width", 100)                          
-        .attr("height", 30)                            
-        .style("overflow", "visible")
-        .style("pointer-events", "none")
-        .append("xhtml:div")
-        .style("font-size", "12px")
-        .style("text-align", "center")
-        .style("word-wrap", "break-word")
-        .style("max-width", "100%")
+        .join("text")
+        .attr("dy", "0.35em")
+        .attr("fill-opacity", d => +labelVisible(d.current))
+        .attr("transform", d => labelTransform(d.current))
         .text(d => d.data.name);
 
 
