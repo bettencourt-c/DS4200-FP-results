@@ -1,7 +1,7 @@
 // using the following following template: https://observablehq.com/@d3/zoomable-sunburst
 
 d3.json('drug.json').then(data => {
-    const width = 1200;
+    const width = 1550;
     const height = width;
     const radius = width / 5.5;
 
@@ -36,7 +36,7 @@ d3.json('drug.json').then(data => {
 
     const svg = d3.create("svg")
         .attr("viewBox", [-width / 2, -height / 2, width, width])
-        .style("font", "9px sans-serif")
+        .style("font", "8px sans-serif")
         .attr("width", width)
         .attr("height", height);
 
