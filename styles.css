@@ -40,7 +40,6 @@ main {
 #fig1-chart, #fig5-chart {
     width: 100%;
     max-width: 100%;
-    flex-grow: 1;
     height: auto;
 }
 
@@ -60,7 +59,6 @@ main {
 #fig2-chart, #fig3-chart, #fig4-chart {
     width: 75%;
     max-width: 100%;
-    flex-grow: 1;
     height: auto;
 }
 
