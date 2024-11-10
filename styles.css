@@ -68,12 +68,6 @@ header h1, header h2 {
     height: auto;
 }
 
-#fig5-chart svg {
-        width: 80%;
-        height: 80%; 
-        display: block;
-    }
-
 
 .contact-info {
     display: flex; 
