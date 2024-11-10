@@ -53,6 +53,7 @@ main {
 .about-fig2 p, .about-fig3 p, .about-fig4 p {
     width: 25%; 
     padding: 5%;  
+    margin: 0;
 }
 
 
@@ -68,11 +69,10 @@ main {
     align-items: flex-start;
     flex-direction: column;
     align-items: center;
-    max-width: 80%; 
+    max-width: 90%; 
     margin: auto;
     background: RGB(236,236,236);
-    padding: 20px;
-    border-radius: 8px;
+    padding: 2.5%;;
 }
 
 .contact-info a {
