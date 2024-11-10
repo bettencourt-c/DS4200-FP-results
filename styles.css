@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+
 body {
     font-family: Helvetica, sans-serif;
     margin: 0;
-    padding: 2.5%;
+    padding: 0;
+    overflow-x: auto;
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
 } 
@@ -48,17 +54,18 @@ main {
     justify-content: flex-start;
     align-items: center;  
     margin-bottom: 20px;
+    overflow: hidden;
 }
 
 .about-fig2 p, .about-fig3 p, .about-fig4 p {
-    width: 25%; 
-    padding: 5%;  
+    width: 30%; 
+    padding: 2%;  
     margin: 0;
 }
 
 
 #fig2-chart, #fig3-chart, #fig4-chart {
-    width: 75%;
+    width: 70%;
     max-width: 100%;
     height: auto;
 }
