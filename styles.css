@@ -2,9 +2,12 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 2.5%;
-    max-width: 90vh;
+    max-width: 90%;
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 } 
 
 header {
@@ -54,8 +57,7 @@ main {
 
 .about-fig2 p, .about-fig3 p, .about-fig4 p {
     width: 30%; 
-    padding: 2%;  
-    margin: 0;
+    padding: 2%; 
 }
 
 
