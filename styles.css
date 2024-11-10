@@ -2,9 +2,21 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: RGB(193,192,192);
-    color: RGB(44,45,43);
-} 
+    background-color: RGB(193, 192, 192);
+    color: RGB(44, 45, 43);
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1400px; 
+    margin: auto;
+    background: RGB(236, 236, 236);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
 
 header {
     background: RGB(148,44,60);
@@ -13,30 +25,28 @@ header {
     text-align: center;
 } 
 
-body  {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 20px;
-    max-width: 1400px; 
-    margin: auto;
-    background: RGB(236,236,236);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+header h1, header h2 {
+    margin: 0;
 }
 
 .about-fig1, .about-fig4 {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .about-fig2, .about-fig3 {
     display: flex; 
-    justify-content: space-between; 
-    align-items: flex-start;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;  
+    margin-bottom: 20px;
+}
+
+.about-fig2 p, .about-fig3 p {
+    width: 45%; 
+    padding: 20px;  
 }
 
 #fig1-chart {
