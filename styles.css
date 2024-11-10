@@ -22,7 +22,7 @@ header {
     background: RGB(148,44,60);
     color: RGB(236,236,236);
     padding: 10px 0;
-    text-align: center;
+    text-align: left;
 } 
 
 
@@ -33,14 +33,14 @@ header h1, header h2 {
 .about-fig1, .about-fig4 {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     margin-bottom: 20px;
 }
 
 .about-fig2, .about-fig3 {
     display: flex; 
     justify-content: space-between;
-    align-items: center;  
+    align-items: left;  
     margin-bottom: 20px;
 }
 
@@ -73,7 +73,7 @@ header h1, header h2 {
         display: flex; 
         flex-wrap: wrap;
         align-items: center;
-        max-width: 1400px; 
+        max-width: 100%; 
         margin: auto;
         background: RGB(236,236,236);
         padding: 20px;
