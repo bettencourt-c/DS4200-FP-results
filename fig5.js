@@ -1,7 +1,7 @@
 // using the following following template: https://observablehq.com/@d3/zoomable-sunburst
 
 d3.json('drug.json').then(data => {
-    const container = d3.select('body');
+    const container = d3.select('#chart-container');
     const width = container.node().getBoundingClientRect().width;
     const height = width;
     const radius = width / 6.6;
@@ -73,7 +73,7 @@ d3.json('drug.json').then(data => {
     label.each(function(d) {
         const textElement = d3.select(this);
         const words = d.data.name.split(" ");
-        const maxLength = 30; // Max number of characters per line
+        const maxLength = 30; 
         let lines = [];
 
         let currentLine = "";
@@ -87,11 +87,11 @@ d3.json('drug.json').then(data => {
         });
         if (currentLine) lines.push(currentLine);
 
-        textElement.text(""); // Clear the current text
+        textElement.text("");
         lines.forEach((line, i) => {
             textElement.append("tspan")
                 .attr("x", 0)
-                .attr("dy", i === 0 ? 0 : "1.2em") // Line spacing
+                .attr("dy", i === 0 ? 0 : "1.2em")
                 .text(line);
         });
     });
@@ -148,4 +148,18 @@ d3.json('drug.json').then(data => {
     }
 
     d3.select("#chart-container").append(() => svg.node());
+
+
+    window.addEventListener('resize', function() {
+        const newWidth = container.node().getBoundingClientRect().width;
+        const newHeight = newWidth;
+        const newRadius = newWidth / 6.6;
+        
+        svg.attr("width", newWidth).attr("height", newHeight);
+        svg.attr("viewBox", [-newWidth / 2, -newHeight / 2, newWidth, newHeight]);
+        
+        arc.innerRadius(d => d.y0 * newRadius).outerRadius(d => Math.max(d.y0 * newRadius, d.y1 * newRadius - 1));
+        
+        path.transition().attrTween("d", d => () => arc(d.current));
+    });
 });
