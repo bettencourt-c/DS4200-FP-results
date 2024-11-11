@@ -100,20 +100,26 @@ d3.json('drug.json').then(data => {
     function fontSize(d) {
         const arcArea = (d.y1 - d.y0) * (d.x1 - d.x0);  
         const minArea = 0.03; 
+        const maxFontSize = 14;
     
         // If the arc is small, reduce the font size
         if (arcArea < minArea) {
             return "0px"; 
         }
     
-        // Otherwise, make the font size proportional to the arc size
-        const maxFontSize = 14; 
+        // Font size scaling function
         const fontScale = d3.scaleLinear()
             .domain([minArea, 0.1]) 
-            .range([6, maxFontSize]);  
+            .range([6, maxFontSize]); 
     
-        return `${fontScale(arcArea)}px`; 
-    }
+        // Get the calculated font size from the scale
+        let calculatedFontSize = fontScale(arcArea);
+    
+        // Ensure the font size does not exceed the maximum
+        calculatedFontSize = Math.min(calculatedFontSize, maxFontSize);
+    
+        return `${calculatedFontSize}px`;
+}
     
 
     const parent = svg.append("circle")
