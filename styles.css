@@ -38,7 +38,7 @@ main {
     overflow-wrap: break-word;
 }
 
-.about-fig1, .about-fig5 {
+.fig1, .fig5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +51,7 @@ main {
 }
 
 .about-fig1 p, .about-fig5 p {
-    margin-bottom: 20px;
+    margin-bottom: ;
     word-wrap: break-word;
     overflow-wrap: break-word;
     margin: 0;
@@ -63,14 +63,13 @@ main {
     width: 100%;
     position: relative;
     margin-bottom: 2.5%;
-    padding-bottom: 56.25%;
     margin: 0;
     overflow: hidden;
     /* display: block; */
 }
 
 
-.about-fig2, .about-fig3, .about-fig4 {
+.fig2, .fig3, .fig4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
