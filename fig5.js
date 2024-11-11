@@ -147,19 +147,38 @@ d3.json('drug.json').then(data => {
         return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
     }
 
-    d3.select("#chart-container").append(() => svg.node());
-
-
+    // Add event listener for window resize
     window.addEventListener('resize', function() {
-        const newWidth = container.node().getBoundingClientRect().width;
+        const newWidth = container.node().getBoundingClientRect().width; 
         const newHeight = newWidth;
-        const newRadius = newWidth / 6.6;
-        
-        svg.attr("width", newWidth).attr("height", newHeight);
-        svg.attr("viewBox", [-newWidth / 2, -newHeight / 2, newWidth, newHeight]);
-        
-        arc.innerRadius(d => d.y0 * newRadius).outerRadius(d => Math.max(d.y0 * newRadius, d.y1 * newRadius - 1));
-        
-        path.transition().attrTween("d", d => () => arc(d.current));
+        const newRadius = newWidth / 6.6; 
+    
+        // Update SVG attributes
+        svg.attr("width", newWidth)
+           .attr("height", newHeight)
+           .attr("viewBox", [-newWidth / 2, -newHeight / 2, newWidth, newHeight]);
+    
+        // Update the arc's radius
+        arc.innerRadius(d => d.y0 * newRadius)
+           .outerRadius(d => Math.max(d.y0 * newRadius, d.y1 * newRadius - 1));
+    
+        // Update paths with a transition
+        path.transition()
+            .duration(500) 
+            .attrTween("d", d => {
+                const i = d3.interpolate(d.current, d.target);
+                return t => {
+                    d.current = i(t); 
+                    return arc(d.current); 
+                };
+            });
+    
+        label.transition()
+            .duration(500)
+            .attr("fill-opacity", d => +labelVisible(d.current))
+            .attrTween("transform", d => () => labelTransform(d.current));
     });
+    
+    
+    d3.select("#chart-container").append(() => svg.node());
 });
