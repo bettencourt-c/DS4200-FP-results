@@ -28,10 +28,11 @@ main {
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    max-width: 100%; 
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5%;
+    padding: 2.5% 0;
     background: RGB(236,236,236);
-    padding: 2.5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow-x: hidden;
     word-wrap: break-word;
