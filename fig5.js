@@ -68,14 +68,15 @@ d3.json('drug.json').then(data => {
         .attr("dy", "0.35em")
         .attr("fill-opacity", d => +labelVisible(d.current))
         .attr("transform", d => labelTransform(d.current))
+        .style("font-size", d => fontSize(d))
         .text(d => d.data.name);
 
     label.each(function(d) {
         const textElement = d3.select(this);
         const words = d.data.name.split(" ");
-        const maxLength = 30; // Max number of characters per line
+        const maxLength = 30;
         let lines = [];
-
+    
         let currentLine = "";
         words.forEach(word => {
             if ((currentLine + word).length <= maxLength) {
@@ -86,15 +87,34 @@ d3.json('drug.json').then(data => {
             }
         });
         if (currentLine) lines.push(currentLine);
-
-        textElement.text(""); // Clear the current text
+    
+        textElement.text("");
         lines.forEach((line, i) => {
             textElement.append("tspan")
                 .attr("x", 0)
-                .attr("dy", i === 0 ? 0 : "1.2em") // Line spacing
+                .attr("dy", i === 0 ? 0 : "1.2em")
                 .text(line);
         });
     });
+
+    function fontSize(d) {
+        const arcArea = (d.y1 - d.y0) * (d.x1 - d.x0);  
+        const minArea = 0.03; 
+    
+        // If the arc is small, reduce the font size
+        if (arcArea < minArea) {
+            return "0px"; 
+        }
+    
+        // Otherwise, make the font size proportional to the arc size
+        const maxFontSize = 14; 
+        const fontScale = d3.scaleLinear()
+            .domain([minArea, 0.1]) 
+            .range([6, maxFontSize]);  
+    
+        return `${fontScale(arcArea)}px`; 
+    }
+    
 
     const parent = svg.append("circle")
         .datum(root)
