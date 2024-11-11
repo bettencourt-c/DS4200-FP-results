@@ -38,7 +38,7 @@ main {
     overflow-wrap: break-word;
 }
 
-.fig1, .fig5 {
+.about-fig1, .about-fig5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +69,7 @@ main {
 }
 
 
-.fig2, .fig3, .fig4 {
+.about-fig2, .about-fig3, .about-fig4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
