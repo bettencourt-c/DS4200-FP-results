@@ -124,9 +124,7 @@ main {
 }
 
 #fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object, #fig5-chart object {
-    top: 0;
-    left: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
     object-fit: scale-down;
