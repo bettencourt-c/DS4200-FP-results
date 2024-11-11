@@ -59,42 +59,43 @@ d3.json('drug.json').then(data => {
         .text(d => `${d.ancestors().map(d => d.data.name).reverse().join("/")}\n${format(d.value)}`);
 
     const label = svg.append("g")
-        .attr("pointer-events", "none")
-        .attr("text-anchor", "middle")
-        .style("user-select", "none")
-        .selectAll("text")
-        .data(root.descendants().slice(1))
-        .join("text")
-        .attr("dy", "0.35em")
-        .attr("fill-opacity", d => +labelVisible(d.current))
-        .attr("transform", d => labelTransform(d.current))
-        .text(d => d.data.name);
+    .attr("pointer-events", "none")
+    .attr("text-anchor", "middle")
+    .style("user-select", "none")
+    .selectAll("text")
+    .data(root.descendants().slice(1))
+    .join("text")
+    .attr("dy", "0.35em")
+    .attr("fill-opacity", d => +labelVisible(d.current))
+    .attr("transform", d => labelTransform(d.current))
+    .style("font-size", d => fontSize(d))
+    .text(d => d.data.name);
 
     label.each(function(d) {
-        const textElement = d3.select(this);
-        const words = d.data.name.split(" ");
-        const maxLength = 30; // Max number of characters per line
-        let lines = [];
+    const textElement = d3.select(this);
+    const words = d.data.name.split(" ");
+    const maxLength = 30; 
+    let lines = [];
 
-        let currentLine = "";
-        words.forEach(word => {
-            if ((currentLine + word).length <= maxLength) {
-                currentLine += (currentLine ? " " : "") + word;
-            } else {
-                lines.push(currentLine);
-                currentLine = word;
-            }
-        });
-        if (currentLine) lines.push(currentLine);
-
-        textElement.text(""); // Clear the current text
-        lines.forEach((line, i) => {
-            textElement.append("tspan")
-                .attr("x", 0)
-                .attr("dy", i === 0 ? 0 : "1.2em") // Line spacing
-                .text(line);
-        });
+    let currentLine = "";
+    words.forEach(word => {
+        if ((currentLine + word).length <= maxLength) {
+            currentLine += (currentLine ? " " : "") + word;
+        } else {
+            lines.push(currentLine);
+            currentLine = word;
+        }
     });
+    if (currentLine) lines.push(currentLine);
+
+    textElement.text(""); // Clear the current text
+    lines.forEach((line, i) => {
+        textElement.append("tspan")
+            .attr("x", 0)
+            .attr("dy", i === 0 ? 0 : "1.2em")
+            .text(line);
+    });
+});
 
     const parent = svg.append("circle")
         .datum(root)
@@ -138,9 +139,7 @@ d3.json('drug.json').then(data => {
     }
 
     function labelVisible(d) {
-        const arcArea = (d.y1 - d.y0) * (d.x1 - d.x0);
-        const minArea = 0.03;
-        return arcArea > minArea;
+        return d.y1 <= 3 && d.y0 >= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) > 0.03;
     }
 
     function labelTransform(d) {
