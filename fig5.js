@@ -59,43 +59,43 @@ d3.json('drug.json').then(data => {
         .text(d => `${d.ancestors().map(d => d.data.name).reverse().join("/")}\n${format(d.value)}`);
 
     const label = svg.append("g")
-    .attr("pointer-events", "none")
-    .attr("text-anchor", "middle")
-    .style("user-select", "none")
-    .selectAll("text")
-    .data(root.descendants().slice(1))
-    .join("text")
-    .attr("dy", "0.35em")
-    .attr("fill-opacity", d => +labelVisible(d.current))
-    .attr("transform", d => labelTransform(d.current))
-    .style("font-size", d => fontSize(d))
-    .text(d => d.data.name);
+        .attr("pointer-events", "none")
+        .attr("text-anchor", "middle")
+        .style("user-select", "none")
+        .selectAll("text")
+        .data(root.descendants().slice(1))
+        .join("text")
+        .attr("dy", "0.35em")
+        .attr("fill-opacity", d => +labelVisible(d.current))
+        .attr("transform", d => labelTransform(d.current))
+        .style("font-size", d => fontSize(d))
+        .text(d => d.data.name);
 
     label.each(function(d) {
-    const textElement = d3.select(this);
-    const words = d.data.name.split(" ");
-    const maxLength = 30; 
-    let lines = [];
-
-    let currentLine = "";
-    words.forEach(word => {
-        if ((currentLine + word).length <= maxLength) {
-            currentLine += (currentLine ? " " : "") + word;
-        } else {
-            lines.push(currentLine);
-            currentLine = word;
-        }
+        const textElement = d3.select(this);
+        const words = d.data.name.split(" ");
+        const maxLength = 30; 
+        let lines = [];
+    
+        let currentLine = "";
+        words.forEach(word => {
+            if ((currentLine + word).length <= maxLength) {
+                currentLine += (currentLine ? " " : "") + word;
+            } else {
+                lines.push(currentLine);
+                currentLine = word;
+            }
+        });
+        if (currentLine) lines.push(currentLine);
+    
+        textElement.text(""); // Clear the current text
+        lines.forEach((line, i) => {
+            textElement.append("tspan")
+                .attr("x", 0)
+                .attr("dy", i === 0 ? 0 : "1.2em")
+                .text(line);
+        });
     });
-    if (currentLine) lines.push(currentLine);
-
-    textElement.text(""); // Clear the current text
-    lines.forEach((line, i) => {
-        textElement.append("tspan")
-            .attr("x", 0)
-            .attr("dy", i === 0 ? 0 : "1.2em")
-            .text(line);
-    });
-});
 
     const parent = svg.append("circle")
         .datum(root)
