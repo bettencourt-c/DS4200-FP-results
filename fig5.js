@@ -1,8 +1,9 @@
 // using the following following template: https://observablehq.com/@d3/zoomable-sunburst
 
 d3.json('drug.json').then(data => {
-    const container = d3.select('#chart-container');
-    const width = container.node().getBoundingClientRect().width;
+    // const container = d3.select('#chart-container');
+    // const width = container.node().getBoundingClientRect().width;
+    const width = 100%;
     const height = width;
     const radius = width / 6.6;
 
