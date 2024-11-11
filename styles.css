@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Helvetica, sans-serif;
     margin: 0;
@@ -5,6 +9,7 @@ body {
     max-width: 90%;
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
+    overflow-x: hidden;
 } 
 
 header {
@@ -13,6 +18,7 @@ header {
     max-width: 100%; 
     padding: 2.5% 0;
     text-align: center;
+    box-sizing: border-box;
 } 
 
 
@@ -25,6 +31,7 @@ main {
     background: RGB(236,236,236);
     padding: 2.5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
 }
 
 .about-fig1, .about-fig5 {
@@ -32,10 +39,15 @@ main {
     flex-direction: column;
     text-align: left;
     margin: 0;
+    width: 100%;
+    max-width: 100%;
+    flex: 1 1 100%;
 }
 
 .about-fig1 p, .about-fig5 p {
     margin-bottom: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 #fig1-chart, #fig5-chart {
@@ -45,10 +57,12 @@ main {
 }
 
 .about-fig2, .about-fig3, .about-fig4 {
-    display: flex; 
+    display: flex;
     justify-content: flex-start;
     align-items: center;  
     margin: 0;
+    flex: 1 1 100%;
+    max-width: 100%;
     overflow: hidden;
 }
 
@@ -56,6 +70,7 @@ main {
     width: 30%; 
     padding: 2%;  
     margin: 0;
+    word-wrap: break-word;
 }
 
 
@@ -110,42 +125,3 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-
-@media screen and (max-width: 768px) {
-
-    body {
-        padding: 5%;
-    }
-
-    .about-fig2 p, .about-fig3 p, .about-fig4 p {
-        width: 100%;
-        padding: 5%;
-    }
-
-    #fig2-chart, #fig3-chart, #fig4-chart {
-        width: 100%;  
-        height: auto; 
-    }
-
-    .contact-info {
-        padding: 5%; 
-    }
-
-    nav ul li {
-        display: block; 
-        text-align: center;
-        margin: 5px 0;
-    }
-
-    header {
-        padding: 5% 0;
-    }
-
-    .about-fig1, .about-fig5 {
-        margin-bottom: 30px;
-    }
-
-    #fig1-chart, #fig5-chart {
-        width: 100%;
-    }
-}
