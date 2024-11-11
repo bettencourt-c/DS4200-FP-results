@@ -43,6 +43,7 @@ main {
     margin: 0;
     width: 100%;
     max-width: 100%;
+    height: auto;
     flex: 1 1 100%;
 }
 
@@ -53,9 +54,13 @@ main {
 }
 
 #fig1-chart, #fig5-chart {
+    position: relative;
     width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
 }
+
 
 .about-fig2, .about-fig3, .about-fig4 {
     display: flex;
@@ -78,6 +83,15 @@ main {
 #fig2-chart, #fig3-chart, #fig4-chart {
     width: 70%;
     height: 100%;
+}
+
+#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 
