@@ -28,9 +28,7 @@ main {
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2.5%;
+    margin: 2.5%;
     padding: 2.5%;
     background: RGB(236,236,236);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -61,11 +59,8 @@ main {
     display: block;
     width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2.5%;
+    padding: 2.5%;
     overflow: hidden;
-    object-fit: contain;
     
 }
 
@@ -73,9 +68,7 @@ main {
     display: block;
     width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2.5%;
+    padding: 2.5%;
     overflow: hidden;
 }
 
@@ -103,7 +96,7 @@ main {
     display: block;
     width: 70%;
     height: auto;
-    margin-bottom: 2.5%;
+    padding: 2.5%;
     overflow: hidden;
 }
 
@@ -111,7 +104,7 @@ main {
     display: block;
     width: 70%;
     height: auto;
-    margin-bottom: 2.5%;
+    padding: 2.5%;
     overflow: hidden;
 }
 
@@ -119,7 +112,7 @@ main {
     display: block;
     width: 70%;
     height: auto;
-    margin-bottom: 2.5%;
+    padding: 2.5%;
     overflow: hidden;
 }
 
