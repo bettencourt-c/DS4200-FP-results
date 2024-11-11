@@ -68,15 +68,14 @@ d3.json('drug.json').then(data => {
         .attr("dy", "0.35em")
         .attr("fill-opacity", d => +labelVisible(d.current))
         .attr("transform", d => labelTransform(d.current))
-        .style("font-size", d => fontSize(d))
         .text(d => d.data.name);
 
     label.each(function(d) {
         const textElement = d3.select(this);
         const words = d.data.name.split(" ");
-        const maxLength = 30; 
+        const maxLength = 30; // Max number of characters per line
         let lines = [];
-    
+
         let currentLine = "";
         words.forEach(word => {
             if ((currentLine + word).length <= maxLength) {
@@ -87,12 +86,12 @@ d3.json('drug.json').then(data => {
             }
         });
         if (currentLine) lines.push(currentLine);
-    
+
         textElement.text(""); // Clear the current text
         lines.forEach((line, i) => {
             textElement.append("tspan")
                 .attr("x", 0)
-                .attr("dy", i === 0 ? 0 : "1.2em")
+                .attr("dy", i === 0 ? 0 : "1.2em") // Line spacing
                 .text(line);
         });
     });
@@ -149,20 +148,4 @@ d3.json('drug.json').then(data => {
     }
 
     d3.select("#chart-container").append(() => svg.node());
-
-    window.addEventListener("resize", () => {
-        let { width, height, radius } = updateDimensions();
-        svg.attr("width", width)
-            .attr("height", height)
-            .attr("viewBox", [-width / 2, -height / 2, width, width]);
-
-        arc.padRadius(radius * 1.5)
-           .innerRadius(d => d.y0 * radius)
-           .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
-
-        path.attr("d", d => arc(d.current));
-
-        parent.attr("r", radius);
-    });
-    
 });
