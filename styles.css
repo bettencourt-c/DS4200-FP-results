@@ -51,7 +51,7 @@ main {
 }
 
 .about-fig1 p, .about-fig5 p {
-    margin-bottom: ;
+    margin-bottom: 30px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     margin: 0;
@@ -63,6 +63,7 @@ main {
     width: 100%;
     position: relative;
     margin-bottom: 2.5%;
+    height: 0;
     margin: 0;
     overflow: hidden;
     /* display: block; */
