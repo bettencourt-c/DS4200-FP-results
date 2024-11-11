@@ -1,64 +1,30 @@
 // using the following following template: https://observablehq.com/@d3/zoomable-sunburst
 
 d3.json('drug.json').then(data => {
-    // select the container where the chart will be placed
-    const container = d3.select('#chart-container');
-    
-    // update the chart size based on the container's width
-    function updateChartSize() {
-        const width = container.node().getBoundingClientRect().width; 
-        const height = width; 
-        const radius = width / 6.6;  
-        
-        // update the SVG dimensions and viewBox to make the chart responsive
-        svg.attr('width', '100%')
-           .attr('height', '100%')
-           .attr('viewBox', [-width / 2, -height / 2, width, height]); 
+    const container = d3.select('body');
+    const width = container.node().getBoundingClientRect().width;
+    const height = width;
+    const radius = width / 6.6;
 
-        // recalculate arc's inner and outer radii based on the new size
-        arc.innerRadius(d => d.y0 * radius)
-           .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
-
-        // recalculate path transitions based on the new arcs
-        path.transition()
-            .duration(500) 
-            .attrTween("d", d => {
-                const i = d3.interpolate(d.current, d.target);
-                return t => {
-                    d.current = i(t);
-                    return arc(d.current); 
-                };
-            });
-
-        // update label positions after resizing
-        label.transition()
-            .duration(500)
-            .attr("fill-opacity", d => +labelVisible(d.current))
-            .attrTween("transform", d => () => labelTransform(d.current));
-    }
-
-    // create the SVG container and initialize the chart elements
-    const svg = d3.create("svg")
-        .style("font", "8px sans-serif");
-
-    // create the color scale
     const colorArray = [
-        'rgb(136, 34, 85)', 'rgb(170, 68, 153)', 'rgb(204, 102, 119)',
-        'rgb(221, 204, 119)', 'rgb(136, 204, 238)', 'rgb(68, 170, 153)',
-        'rgb(17, 119, 51)', 'rgb(51, 34, 136)'
+        'rgb(136, 34, 85)',
+        'rgb(170, 68, 153)',
+        'rgb(204, 102, 119)',
+        'rgb(221, 204, 119)',
+        'rgb(136, 204, 238)',
+        'rgb(68, 170, 153)',
+        'rgb(17, 119, 51)',
+        'rgb(51, 34, 136)',
     ];
-    
+
     const color = d3.scaleOrdinal(colorArray);
 
-    // hierarchy and partition setup
     const hierarchy = d3.hierarchy(data)
         .sum(d => d.value)
         .sort((a, b) => b.value - a.value);
-
     const root = d3.partition()
         .size([2 * Math.PI, hierarchy.height + 1])
         (hierarchy);
-
     root.each(d => d.current = d);
 
     const arc = d3.arc()
@@ -67,51 +33,76 @@ d3.json('drug.json').then(data => {
         .padAngle(d => Math.min((d.x1 - d.x0) / 2, 0.005))
         .padRadius(radius * 1.5)
         .innerRadius(d => d.y0 * radius)
-        .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
+        .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1))
 
-    // append paths to SVG
-    const path = svg.append('g')
-        .selectAll('path')
+    const svg = d3.create("svg")
+        .attr("viewBox", [-width / 2, -height / 2, width, width])
+        .style("font", "8px sans-serif")
+        .attr("width", width)
+        .attr("height", height);
+
+    const path = svg.append("g")
+        .selectAll("path")
         .data(root.descendants().slice(1))
-        .join('path')
-        .attr('fill', d => {
-            while (d.depth > 1) d = d.parent;
-            return color(d.data.name);
-        })
-        .attr('d', d => arc(d.current));
+        .join("path")
+        .attr("fill", d => { while (d.depth > 1) d = d.parent; return color(d.data.name); })
+        .attr("fill-opacity", d => arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)
+        .attr("pointer-events", d => arcVisible(d.current) ? "auto" : "none")
+        .attr("d", d => arc(d.current));
 
     path.filter(d => d.children)
-        .style('cursor', 'pointer')
-        .on('click', clicked);
+        .style("cursor", "pointer")
+        .on("click", clicked);
 
-    // add titles to paths
-    path.append('title')
-        .text(d => `${d.ancestors().map(d => d.data.name).reverse().join('/')}\n${d3.format(',d')(d.value)}`);
+    const format = d3.format(",d");
+    path.append("title")
+        .text(d => `${d.ancestors().map(d => d.data.name).reverse().join("/")}\n${format(d.value)}`);
 
-    // update labels for each path
-    const label = svg.append('g')
-        .attr('pointer-events', 'none')
-        .attr('text-anchor', 'middle')
-        .style('user-select', 'none')
-        .selectAll('text')
+    const label = svg.append("g")
+        .attr("pointer-events", "none")
+        .attr("text-anchor", "middle")
+        .style("user-select", "none")
+        .selectAll("text")
         .data(root.descendants().slice(1))
-        .join('text')
-        .attr('dy', '0.35em')
-        .attr('fill-opacity', d => +labelVisible(d.current))
-        .attr('transform', d => labelTransform(d.current))
+        .join("text")
+        .attr("dy", "0.35em")
+        .attr("fill-opacity", d => +labelVisible(d.current))
+        .attr("transform", d => labelTransform(d.current))
         .text(d => d.data.name);
 
-    // append the SVG to the chart container
-    d3.select('#chart-container').append(() => svg.node());
+    label.each(function(d) {
+        const textElement = d3.select(this);
+        const words = d.data.name.split(" ");
+        const maxLength = 30; // Max number of characters per line
+        let lines = [];
 
-    // initial chart size update
-    updateChartSize();
+        let currentLine = "";
+        words.forEach(word => {
+            if ((currentLine + word).length <= maxLength) {
+                currentLine += (currentLine ? " " : "") + word;
+            } else {
+                lines.push(currentLine);
+                currentLine = word;
+            }
+        });
+        if (currentLine) lines.push(currentLine);
 
-    // add an event listener to resize the chart when the window is resized
-    // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-    window.addEventListener('resize', updateChartSize);
+        textElement.text(""); // Clear the current text
+        lines.forEach((line, i) => {
+            textElement.append("tspan")
+                .attr("x", 0)
+                .attr("dy", i === 0 ? 0 : "1.2em") // Line spacing
+                .text(line);
+        });
+    });
 
-    // function to handle click events (zooming functionality)
+    const parent = svg.append("circle")
+        .datum(root)
+        .attr("r", radius)
+        .attr("fill", "none")
+        .attr("pointer-events", "all")
+        .on("click", clicked);
+
     function clicked(event, p) {
         parent.datum(p.parent || root);
         root.each(d => d.target = {
@@ -124,22 +115,24 @@ d3.json('drug.json').then(data => {
         const t = svg.transition().duration(750);
 
         path.transition(t)
-            .tween('data', d => {
+            .tween("data", d => {
                 const i = d3.interpolate(d.current, d.target);
                 return t => d.current = i(t);
             })
-            .attr('fill-opacity', d => arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0)
-            .attr('pointer-events', d => arcVisible(d.target) ? 'auto' : 'none')
-            .attrTween('d', d => () => arc(d.current));
+            .filter(function(d) {
+                return +this.getAttribute("fill-opacity") || arcVisible(d.target);
+            })
+            .attr("fill-opacity", d => arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0)
+            .attr("pointer-events", d => arcVisible(d.target) ? "auto" : "none")
+            .attrTween("d", d => () => arc(d.current));
 
         label.filter(function(d) {
             return +this.getAttribute("fill-opacity") || labelVisible(d.target);
         }).transition(t)
-            .attr('fill-opacity', d => +labelVisible(d.target))
-            .attrTween('transform', d => () => labelTransform(d.current));
+            .attr("fill-opacity", d => +labelVisible(d.target))
+            .attrTween("transform", d => () => labelTransform(d.current));
     }
 
-    // functions for arc visibility and label visibility
     function arcVisible(d) {
         return d.y1 <= 3 && d.y0 >= 1 && d.x1 > d.x0;
     }
@@ -153,4 +146,6 @@ d3.json('drug.json').then(data => {
         const y = (d.y0 + d.y1) / 2 * radius;
         return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
     }
+
+    d3.select("#chart-container").append(() => svg.node());
 });
