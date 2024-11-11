@@ -119,7 +119,7 @@ main {
     overflow: hidden;
 }
 
-#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object #fig5-chart object {
+#fig1-chart iframe, #fig2-chart iframe, #fig3-chart iframe, #fig4-chart iframe #fig5-chart iframe {
     position: absolute;
     top: 0;
     left: 0;
