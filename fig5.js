@@ -2,7 +2,7 @@
 
 d3.json('drug.json').then(data => {
     // select the container where the chart will be placed
-    const container = d3.select('main');
+    const container = d3.select('#chart-container');
     
     // update the chart size based on the container's width
     function updateChartSize() {
