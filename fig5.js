@@ -147,6 +147,21 @@ d3.json('drug.json').then(data => {
         return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
     }
 
-    // Append the chart to the container
     d3.select("#chart-container").append(() => svg.node());
+
+    window.addEventListener("resize", () => {
+        let { width, height, radius } = updateDimensions();
+        svg.attr("width", width)
+            .attr("height", height)
+            .attr("viewBox", [-width / 2, -height / 2, width, width]);
+
+        arc.padRadius(radius * 1.5)
+           .innerRadius(d => d.y0 * radius)
+           .outerRadius(d => Math.max(d.y0 * radius, d.y1 * radius - 1));
+
+        path.attr("d", d => arc(d.current));
+
+        parent.attr("r", radius);
+    });
+    
 });
