@@ -32,6 +32,8 @@ main {
     padding: 2.5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .about-fig1, .about-fig5 {
@@ -54,6 +56,7 @@ main {
     width: 100%;
     max-width: 100%;
     height: auto;
+    flex: 1 1 100%;
 }
 
 .about-fig2, .about-fig3, .about-fig4 {
@@ -78,6 +81,7 @@ main {
     width: 70%;
     max-width: 100%;
     height: auto;
+    flex: 1 1 100%;
 }
 
 
