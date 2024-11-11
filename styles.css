@@ -53,6 +53,7 @@ main {
     margin-bottom: 20px;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    margin: 0;
 }
 
 #fig1-chart, #fig5-chart {
@@ -60,6 +61,7 @@ main {
     height: 0;
     padding-bottom: 56.25%;
     position: relative;
+    margin: 0;
     margin-bottom: 2.5%;
     overflow: hidden;
 }
