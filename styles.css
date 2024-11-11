@@ -16,9 +16,9 @@ header {
     background: RGB(148,44,60);
     color: RGB(236,236,236);
     max-width: 100%; 
+    margin: auto; 
     padding: 2.5% 0;
     text-align: center;
-    box-sizing: border-box;
 } 
 
 
@@ -28,13 +28,10 @@ main {
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    margin: 2.5%;
-    padding: 2.5%;
+    margin: auto;
+    padding: 2.5% 0;
     background: RGB(236,236,236);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow-x: hidden;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 .about-fig1, .about-fig5 {
@@ -52,26 +49,32 @@ main {
     margin-bottom: 20px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    margin: 0;
+    margin: auto;
 }
 
-#fig1-chart {
+#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object, #chart-container object {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#fig1-chart, #fig5-chart {
     display: block;
     width: 100%;
-    height: auto;
-    padding: 2.5%;
+    height: 100%;
+    padding: 0;
+    margin: auto;
     overflow: hidden;
-    
 }
 
 #chart-container {
     display: block;
     width: 100%;
-    height: auto;
-    padding: 2.5%;
-    overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
-
 
 .about-fig2, .about-fig3, .about-fig4 {
     display: flex;
@@ -91,36 +94,12 @@ main {
     word-wrap: break-word;
 }
 
-
-#fig2-chart {
+#fig2-chart, #fig3-chart, #fig4-chart {
     display: block;
     width: 70%;
     height: auto;
     padding: 2.5%;
     overflow: hidden;
-}
-
-#fig3-chart {
-    display: block;
-    width: 70%;
-    height: auto;
-    padding: 2.5%;
-    overflow: hidden;
-}
-
-#fig4-chart {
-    display: block;
-    width: 70%;
-    height: auto;
-    padding: 2.5%;
-    overflow: hidden;
-}
-
-#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object, #chart-container object {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
 }
 
 
