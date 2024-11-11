@@ -5,7 +5,7 @@
 body {
     font-family: Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 2.5%;
     max-width: 90%;
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
@@ -15,24 +15,23 @@ body {
 header {
     background: RGB(148,44,60);
     color: RGB(236,236,236);
-    max-width: 100%;
+    max-width: 100%; 
+    margin: auto; 
     padding: 2.5% 0;
     text-align: center;
-    margin-bottom: 2.5%;
 } 
 
 
 main {
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    margin: 2.5%;
-    padding: 2.5%;
+    margin: auto;
+    padding: 2.5% 0;
     background: RGB(236,236,236);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
 }
 
 .about-fig1, .about-fig5 {
@@ -41,6 +40,7 @@ main {
     text-align: left;
     margin: 0;
     width: 100%;
+    max-width: 100%;
     height: auto;
     flex: 1 1 100%;
 }
@@ -49,7 +49,14 @@ main {
     margin-bottom: 20px;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    margin: 0;
+    margin: auto;
+}
+
+#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object, #chart-container object {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 #fig1-chart, #fig5-chart {
@@ -95,12 +102,6 @@ main {
     overflow: hidden;
 }
 
-#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object, #chart-container object {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
 
 .contact-info {
     display: flex; 
