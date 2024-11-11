@@ -116,7 +116,7 @@ main {
     overflow: hidden;
 }
 
-#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object, #fig5-chart object {
+#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object, #chart-container object {
     position: relative;
     width: 100%;
     height: 100%;
