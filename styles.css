@@ -62,11 +62,11 @@ main {
 #fig1-chart, #fig5-chart {
     width: 100%;
     position: relative;
+    margin-top: 2.5%;
     margin-bottom: 2.5%;
-    height: 0;
     margin: 0;
     overflow: hidden;
-    /* display: block; */
+    display: block;
 }
 
 
@@ -77,7 +77,7 @@ main {
     margin: 0;
     width: 100%;
     height: auto;
-    /* flex: 1 1 100%; */
+    flex: 1 1 100%;
 }
 
 .about-fig2 p, .about-fig3 p, .about-fig4 p {
@@ -90,10 +90,11 @@ main {
 
 #fig2-chart, #fig3-chart, #fig4-chart {
     width: 70%;
-    padding-bottom: 56.25%;
     position: relative;
+    height: auto;
+    margin-bottom: 2.5%;
     overflow: hidden;
-    /* display: block; */
+    display: block;
 }
 
 #fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object #fig5-chart object {
