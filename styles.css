@@ -15,7 +15,7 @@ body {
 header {
     background: RGB(148,44,60);
     color: RGB(236,236,236);
-    max-width: 100%; 
+    max-width: 100%;
     padding: 2.5% 0;
     text-align: center;
     box-sizing: border-box;
@@ -56,17 +56,17 @@ main {
     overflow-wrap: break-word;
     margin: 0;
     text-align: justify;
+    width: 100%;
 }
 
 #fig1-chart, #fig5-chart {
     width: 100%;
-    height: auto;
-    padding-bottom: 56.25%;
     position: relative;
-    margin: 0;
     margin-bottom: 2.5%;
+    padding-bottom: 56.25%;
+    margin: 0;
     overflow: hidden;
-    display: block;
+    /* display: block; */
 }
 
 
@@ -74,12 +74,10 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-align: left;
     margin: 0;
     width: 100%;
-    max-width: 100%;
     height: auto;
-    flex: 1 1 100%;
+    /* flex: 1 1 100%; */
 }
 
 .about-fig2 p, .about-fig3 p, .about-fig4 p {
@@ -92,12 +90,10 @@ main {
 
 #fig2-chart, #fig3-chart, #fig4-chart {
     width: 70%;
-    height: auto;
     padding-bottom: 56.25%;
     position: relative;
-    margin-bottom: 2.5%;
     overflow: hidden;
-    display: block;
+    /* display: block; */
 }
 
 #fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object #fig5-chart object {
