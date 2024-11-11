@@ -68,15 +68,14 @@ d3.json('drug.json').then(data => {
         .attr("dy", "0.35em")
         .attr("fill-opacity", d => +labelVisible(d.current))
         .attr("transform", d => labelTransform(d.current))
-        .style("font-size", d => fontSize(d))
         .text(d => d.data.name);
 
     label.each(function(d) {
         const textElement = d3.select(this);
         const words = d.data.name.split(" ");
-        const maxLength = 30;
+        const maxLength = 30; // Max number of characters per line
         let lines = [];
-    
+
         let currentLine = "";
         words.forEach(word => {
             if ((currentLine + word).length <= maxLength) {
@@ -87,40 +86,15 @@ d3.json('drug.json').then(data => {
             }
         });
         if (currentLine) lines.push(currentLine);
-    
-        textElement.text("");
+
+        textElement.text(""); // Clear the current text
         lines.forEach((line, i) => {
             textElement.append("tspan")
                 .attr("x", 0)
-                .attr("dy", i === 0 ? 0 : "1.2em")
+                .attr("dy", i === 0 ? 0 : "1.2em") // Line spacing
                 .text(line);
         });
     });
-
-    function fontSize(d) {
-        const arcArea = (d.y1 - d.y0) * (d.x1 - d.x0);  
-        const minArea = 0.03; 
-        const maxFontSize = 14;
-    
-        // If the arc is small, reduce the font size
-        if (arcArea < minArea) {
-            return "0px"; 
-        }
-    
-        // Font size scaling function
-        const fontScale = d3.scaleLinear()
-            .domain([minArea, 0.1]) 
-            .range([6, maxFontSize]); 
-    
-        // Get the calculated font size from the scale
-        let calculatedFontSize = fontScale(arcArea);
-    
-        // Ensure the font size does not exceed the maximum
-        calculatedFontSize = Math.min(calculatedFontSize, maxFontSize);
-    
-        return `${calculatedFontSize}px`;
-}
-    
 
     const parent = svg.append("circle")
         .datum(root)
