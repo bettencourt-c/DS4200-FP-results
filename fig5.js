@@ -138,7 +138,9 @@ d3.json('drug.json').then(data => {
     }
 
     function labelVisible(d) {
-        return d.y1 <= 3 && d.y0 >= 1 && (d.y1 - d.y0) * (d.x1 - d.x0) > 0.03;
+        const arcArea = (d.y1 - d.y0) * (d.x1 - d.x0);
+        const minArea = 0.03;
+        return arcArea > minArea;
     }
 
     function labelTransform(d) {
