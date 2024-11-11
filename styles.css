@@ -57,7 +57,7 @@ main {
 #fig1-chart {
     width: 100%;
     height: 0;
-    padding-bottom: 50%;
+    padding-bottom: 50;
     position: relative;
     margin-bottom: 2.5%;
     overflow: hidden;
@@ -66,7 +66,7 @@ main {
 #fig5-chart {
     width: 100%;
     height: 0;
-    padding-bottom: 100%;
+    padding-bottom: 100;
     position: relative;
     margin-bottom: 2.5%;
     overflow: hidden;
@@ -95,7 +95,7 @@ main {
 #fig2-chart {
     width: 70%;
     height: 0;
-    padding-bottom: 100%;
+    padding-bottom: 100;
     position: relative;
     margin-bottom: 2.5%;
     overflow: hidden;
@@ -104,7 +104,7 @@ main {
 #fig3-chart {
     width: 70%;
     height: 0;
-    padding-bottom: 83.33%;
+    padding-bottom: 83.33;
     position: relative;
     margin-bottom: 2.5%;
     overflow: hidden;
@@ -113,13 +113,13 @@ main {
 #fig4-chart {
     width: 70%;
     height: 0;
-    padding-bottom: 250%;
+    padding-bottom: 250;
     position: relative;
     margin-bottom: 2.5%;
     overflow: hidden;
 }
 
-#fig1-chart iframe, #fig2-chart iframe, #fig3-chart iframe, #fig4-chart iframe #fig5-chart iframe {
+#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object, #fig5-chart object {
     position: absolute;
     top: 0;
     left: 0;
