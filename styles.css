@@ -68,7 +68,7 @@ main {
     text-align: justify;
 }
 
-#fig1-chart {
+#fig1-chart, #fig5-chart, #chart-container {
     display: block;
     flex: 1 1 100%;
     height: auto;
@@ -78,16 +78,6 @@ main {
     overflow: hidden;
 }
 
-#fig5-chart, #chart-container {
-    display: block;
-    flex: 1 1 100%;
-    max-width: 90% !important;
-    height: auto;
-    padding: 0;
-    margin: 0 auto;
-    object-fit: contain;
-    overflow: hidden;
-}
 
 .about-fig2, .about-fig3, .about-fig4 {
     display: flex;
@@ -126,6 +116,8 @@ main {
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: left;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-info {
