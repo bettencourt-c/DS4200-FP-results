@@ -42,13 +42,6 @@ h1, h2 {
     overflow-wrap: break-word;
 }
 
-iframe {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain; 
-}
-
-
 .about-fig1, .about-fig5 {
     display: flex;
     flex: 1 1 100%;
