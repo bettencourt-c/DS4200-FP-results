@@ -65,11 +65,11 @@ header {
 }
 
 #fig1-chart, #fig5-chart, #chart-container {
-    display: block;
-    max-width: 90%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
-    padding: 0;
-    margin: 0 auto;
     object-fit: contain;
     overflow: hidden;
 }
