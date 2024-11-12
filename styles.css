@@ -62,8 +62,8 @@ main {
 
 #fig1-chart, #fig5-chart, #chart-container {
     display: block;
-    width: 100% !important;
-    height: 100% !important;
+    flex: 1 1 100%;
+    height: auto;
     padding: 0;
     margin: 0;
     object-fit: contain;
@@ -99,12 +99,6 @@ main {
     align-items: center;
     height: 100%;
     overflow: hidden;
-}
-
-#fig1-chart object, #fig2-chart object, #fig3-chart object, #fig4-chart object, #chart-container object {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain;
 }
 
 .contact-info {
