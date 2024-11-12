@@ -29,6 +29,7 @@ header {
 .fig1, .fig2, .fig3, .fig4, .fig5 {
     display: flex;
     flex-wrap: wrap;
+    flex: 1 1 100%;
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
@@ -42,7 +43,6 @@ header {
 .about-fig1, .about-fig5 {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 100%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -55,7 +55,6 @@ header {
 
 .about-fig1 p, .about-fig2 p, .about-fig3 p, .about-fig4 p, .about-fig5 p  {
     display: block; 
-    flex: 1 1 100%;
     max-width: 100%;
     height: auto;
     word-wrap: break-word;
@@ -67,12 +66,11 @@ header {
 
 #fig1-chart, #fig5-chart, #chart-container {
     display: block;
-    flex: 1 1 90%;
     max-width: 90%;
     height: auto;
     padding: 0;
     margin: 0 auto;
-    object-fit: contain;
+    object-fit: scale-down;
     overflow: hidden;
 }
 
@@ -89,13 +87,12 @@ header {
 }
 
 #fig2-chart, #fig3-chart, #fig4-chart {
-    flex: 1 1 100%;
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    object-fit: contain;
+    object-fit: scale-down;
     overflow: hidden;
 }
 
