@@ -46,9 +46,7 @@ iframe {
     width: 100%;
     height: auto;
     max-width: 100%;
-    object-fit: contain; 
-    border: none;
-    margin-bottom: 1.5rem;
+    object-fit: scale-down; 
 }
 
 
