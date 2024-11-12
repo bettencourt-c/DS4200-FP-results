@@ -1,4 +1,3 @@
-/* Apply box-sizing globally */
 *, *::before, *::after {
     box-sizing: border-box;
 }
