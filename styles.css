@@ -43,10 +43,9 @@ h1, h2 {
 }
 
 iframe {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    object-fit: scale-down; 
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain; 
 }
 
 
