@@ -17,7 +17,8 @@ body {
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 } 
 
 
@@ -49,7 +50,7 @@ main {
     display: flex;
     flex: 1 1 100%;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     max-width: 100%;
     text-align: left;
