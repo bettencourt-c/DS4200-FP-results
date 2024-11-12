@@ -37,7 +37,6 @@ header {
     width: 100%;
     min-height: 100%;
     background: RGB(236,236,236);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .about-fig1, .about-fig5 {
@@ -55,18 +54,21 @@ header {
 }
 
 .about-fig1 p, .about-fig2 p, .about-fig3 p, .about-fig4 p, .about-fig5 p  {
-    width: 100%;
+    display: block; 
+    flex: 1 1 100%;
+    max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     margin: 0 auto;
+    padding: 2.5%;
     text-align: justify;
 }
 
 #fig1-chart, #fig5-chart, #chart-container {
     display: block;
     flex: 1 1 100%;
+    max-width: 100%;
     height: auto;
     padding: 0;
     margin: 0 auto;
@@ -88,6 +90,7 @@ header {
 
 #fig2-chart, #fig3-chart, #fig4-chart {
     flex: 1 1 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +100,7 @@ header {
 }
 
 .about-fig1 h1, .about-fig2 h1, .about-fig3 h1, .about-fig4 h1, .about-fig5 h1,  {
-    width: 100%;
+    max-width: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: left;
