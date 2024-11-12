@@ -61,9 +61,10 @@ main {
 #fig1-chart, #fig5-chart, #chart-container {
     display: block;
     width: 100%;
-    height: 100%;
+    height: auto;
     padding: 0;
     margin: 0;
+    object-fit: contain;
     overflow: hidden;
 }
 
