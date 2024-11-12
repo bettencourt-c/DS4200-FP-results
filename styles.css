@@ -67,8 +67,8 @@ header {
 
 #fig1-chart, #fig5-chart, #chart-container {
     display: block;
-    flex: 1 1 100%;
-    max-width: 100%;
+    flex: 1 1 90%;
+    max-width: 90%;
     height: auto;
     padding: 0;
     margin: 0 auto;
