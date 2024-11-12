@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+main, .about-fig1, .about-fig2, .about-fig3, .about-fig4, .about-fig5 {
+    flex-shrink: 0;
+}
 
 body {
     font-family: Helvetica, sans-serif;
