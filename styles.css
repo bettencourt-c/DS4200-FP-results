@@ -17,7 +17,7 @@ body {
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
 } 
 
 
@@ -34,8 +34,8 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     flex-direction: column;
     margin: 0 auto;
     padding: 2.5%;
@@ -48,6 +48,7 @@ main {
 h1, h2 {
     word-wrap: break-word;
     overflow-wrap: break-word;
+    text-align: left;
 }
 
 .about-fig1, .about-fig5 {
