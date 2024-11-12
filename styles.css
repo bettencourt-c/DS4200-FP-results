@@ -26,7 +26,7 @@ header {
 } 
 
 
-.fig1, .fig2, .fig3, .fig4, .fig5{
+.fig1, .fig2, .fig3, .fig4, .fig5 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
