@@ -148,3 +148,47 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+
+
+@media (max-width: 768px) {
+    .fig1, .fig2, .fig3, .fig4, .fig5 {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .about-fig1, .about-fig5 {
+        flex-direction: column; 
+    }
+
+    .about-fig2, .about-fig3, .about-fig4 {
+        flex-direction: column; /* Stack items vertically */
+    }
+
+    .about-fig1 p, .about-fig2 p, .about-fig3 p, .about-fig4 p, .about-fig5 p {
+        text-align: center; 
+    }
+
+    #fig1-chart, #fig5-chart, #chart-container, #fig2-chart, #fig3-chart, #fig4-chart {
+        width: 100%;         
+        height: auto;       
+    }
+
+
+    .contact-info {
+        flex-direction: column;  
+        align-items: center;    
+        padding: 5%;
+    }
+
+
+    nav ul {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    nav ul li {
+        margin: 10px 0; 
+    }
+}
