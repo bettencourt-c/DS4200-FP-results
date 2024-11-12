@@ -74,17 +74,18 @@ main {
     height: auto;
     padding: 0;
     margin: 0 auto;
-    object-fit: scale-down;
+    object-fit: contain;
     overflow: hidden;
 }
 
 #fig5-chart, #chart-container {
     display: block;
-    max-width: 90%;
+    flex: 1 1 100%;
+    max-width: 90% !important;
     height: auto;
     padding: 0;
     margin: 0 auto;
-    object-fit: scale-down;
+    object-fit: contain;
     overflow: hidden;
 }
 
@@ -116,11 +117,12 @@ main {
     justify-content: center;
     align-items: center;
     height: 100%;
-    object-fit: scale-down;
+    object-fit: contain;
     overflow: hidden;
 }
 
 .about-fig1 h1, .about-fig2 h1, .about-fig3 h1, .about-fig4 h1, .about-fig5 h1,  {
+    width: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: left;
