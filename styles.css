@@ -80,8 +80,7 @@ main {
 
 #fig5-chart, #chart-container {
     display: block;
-    flex: 1 1 100%;
-    mad-width: 90%;
+    max-width: 90%;
     height: auto;
     padding: 0;
     margin: 0 auto;
@@ -121,7 +120,7 @@ main {
     overflow: hidden;
 }
 
-#h1, #h2 {
+.about-fig1 h1, .about-fig2 h1, .about-fig3 h1, .about-fig4 h1, .about-fig5 h1,  {
     word-wrap: break-word;
     overflow-wrap: break-word;
     text-align: left;
