@@ -9,7 +9,6 @@ body {
     max-width: 90%;
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
-    overflow: hidden;
 } 
 
 header {
