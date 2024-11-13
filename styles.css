@@ -84,7 +84,7 @@ header {
 
 .fig2, .fig3, .fig4, .fig5 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0 auto;
