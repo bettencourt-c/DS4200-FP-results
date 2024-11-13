@@ -73,7 +73,7 @@ d3.json('drug.json').then(data => {
     label.each(function(d) {
         const textElement = d3.select(this);
         const words = d.data.name.split(" ");
-        const maxLength = 30; // Max number of characters per line
+        const maxLength = 25;
         let lines = [];
 
         let currentLine = "";
