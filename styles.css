@@ -123,6 +123,12 @@ header {
     overflow: hidden;
 }
 
+#fig1-chart iframe, #fig2-chart iframe, #fig3-chart iframe, #fig4-chart iframe {
+    width: 100%; 
+    max-width: 100%;  
+    height: auto;     
+}
+
 .fig2, .fig3, .fig4, .fig5 {
     display: flex;
     flex-direction: row;
