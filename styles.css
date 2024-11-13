@@ -70,11 +70,18 @@ header {
     max-width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     height: auto;
     object-fit: contain;
     overflow: hidden;
+}
+
+.caption {
+    padding-top: 2.5%;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 
@@ -98,8 +105,6 @@ header {
     height: auto;
     object-fit: contain;
     overflow: hidden;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 #fig5-chart, #chart-container {
@@ -113,8 +118,6 @@ header {
     align-items: center;
     object-fit: contain;
     overflow: hidden;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
 }
 
 
