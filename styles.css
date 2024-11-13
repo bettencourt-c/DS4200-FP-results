@@ -101,12 +101,12 @@ header {
     max-width: 100%;
     padding: 0.5%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     height: auto;
     object-fit: contain;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 #fig5-chart, #chart-container {
@@ -125,8 +125,7 @@ header {
 
 #fig1-chart iframe, #fig2-chart iframe, #fig3-chart iframe, #fig4-chart iframe {
     min-width: 100%;  
-    min-height: 100%;  
-    object-fit: scale-down;
+    min-height: 100%; 
 }
 
 .fig2, .fig3, .fig4, .fig5 {
