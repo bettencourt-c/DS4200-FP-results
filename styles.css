@@ -19,7 +19,7 @@ body {
 
 .content-container {
     font-family: Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
     padding: 2.5%;
     background-color: RGB(236,236,236);
     color: RGB(44,45,43);
@@ -39,7 +39,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 0 auto;
+    margin: auto;
     padding: 2.5%;
     width: 100%;
     background: RGB(236,236,236);
@@ -53,7 +53,7 @@ header {
     align-items: flex-start;
     max-width: 100%;
     text-align: left;
-    margin: 0 auto;
+    margin: auto;
     padding: 2.5%;
     overflow: hidden;
     word-wrap: break-word;
@@ -71,6 +71,7 @@ header {
     height: auto;
     object-fit: contain;
     overflow-x: hidden;
+    margin: auto
 }
 
 .caption {
@@ -78,12 +79,12 @@ header {
     text-align: justify;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .about-fig2, .about-fig3, .about-fig4, .about-fig5 {
     display: block;
-    margin: 0 auto;
+    margin: auto;
     padding: 2.5%;
     max-width: 100%;
     word-wrap: break-word;
@@ -108,6 +109,7 @@ header {
     justify-content: center;
     align-items: center;
     height: auto;
+    margin: auto;
     object-fit: contain;
     overflow-x: hidden;
 }
@@ -130,7 +132,7 @@ header {
 #fig1-chart iframe, #fig2-chart iframe, #fig3-chart iframe, #fig4-chart iframe {
     min-width: 100%;  
     min-height: 100%; 
-    margin: 0 auto
+    margin: auto
 }
 
 .fig2, .fig3, .fig4, .fig5 {
