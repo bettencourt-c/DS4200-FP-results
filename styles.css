@@ -15,7 +15,13 @@ body {
     padding: 5%;
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
-} 
+}
+
+.content-container {
+    font-family: Helvetica, sans-serif;
+    background-color: RGB(193,192,192);
+    color: RGB(44,45,43);
+}
 
 
 header {
@@ -117,6 +123,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    object-fit: contain;
+    overflow: hidden;
 }
 
 .about-fig1 p, .about-fig2 p, .about-fig3 p, .about-fig4 p, .about-fig5 p  {
