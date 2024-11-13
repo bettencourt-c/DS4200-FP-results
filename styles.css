@@ -9,7 +9,7 @@ html {
     width: 100%;
 }
 
-body {
+.content-container {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 5%;
