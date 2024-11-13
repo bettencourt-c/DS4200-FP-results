@@ -61,7 +61,7 @@ header {
 }
 
 #fig1-chart {
-    display: block;
+    display: flex;
     max-width: 100%;
     padding: 0.5%;
     display: flex;
@@ -78,6 +78,7 @@ header {
     text-align: justify;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    margin: 0 auto;
 }
 
 .about-fig2, .about-fig3, .about-fig4, .about-fig5 {
@@ -125,9 +126,11 @@ header {
     overflow: hidden;
 }
 
+
 #fig1-chart iframe, #fig2-chart iframe, #fig3-chart iframe, #fig4-chart iframe {
     min-width: 100%;  
     min-height: 100%; 
+    margin: 0 auto
 }
 
 .fig2, .fig3, .fig4, .fig5 {
