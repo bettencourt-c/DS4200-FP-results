@@ -79,7 +79,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60%;
+    height: 60vh;
     object-fit: contain;
     overflow: hidden;
 }
