@@ -148,7 +148,8 @@ header {
 }
 
 .left, .right {
-    max-width: 100%;
+    max-width: 48%;
+    min-height: 100%;
 }
 
 .contact-info {
