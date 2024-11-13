@@ -149,10 +149,31 @@ header {
     overflow-wrap: break-word;
 }
 
-.left, .right {
+.left2 {
+    max-width: 62%;
+    min-height: 100%;
+}
+
+.right2 {
+    max-width: 36%;
+    min-height: 100%;
+}
+
+.left3 {
+    max-width: 66%;
+    min-height: 100%;
+}
+
+.right3 {
+    max-width: 32%;
+    min-height: 100%;
+}
+
+.left4-5, .right4-5 {
     max-width: 48%;
     min-height: 100%;
 }
+
 
 .contact-info {
     display: flex; 
