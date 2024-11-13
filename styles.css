@@ -64,12 +64,22 @@ header {
     text-align: justify;
 }
 
-#fig1-chart, #fig5-chart, #chart-container {
+#fig1-chart {
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: auto;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+#fig5-chart, #chart-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1080px;
     object-fit: contain;
     overflow: hidden;
 }
