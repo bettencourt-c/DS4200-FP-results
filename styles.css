@@ -61,6 +61,7 @@ header {
 }
 
 #fig1-chart {
+    display: block;
     max-width: 100%;
     padding: 0.5%;
     display: flex;
@@ -98,6 +99,7 @@ header {
 }
 
 #fig2-chart, #fig3-chart, #fig4-chart{
+    display: block;
     max-width: 100%;
     padding: 0.5%;
     display: flex;
