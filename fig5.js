@@ -37,7 +37,7 @@ d3.json('drug.json').then(data => {
 
     const svg = d3.create("svg")
         .attr("viewBox", [-width / 2, -height / 2, width, width])
-        .style("font", "20px sans-serif")
+        .style("font", "18px sans-serif")
         .attr("width", width)
         .attr("height", height);
 
@@ -73,7 +73,7 @@ d3.json('drug.json').then(data => {
     label.each(function(d) {
         const textElement = d3.select(this);
         const words = d.data.name.split(" ");
-        const maxLength = 25;
+        const maxLength = 26;
         let lines = [];
 
         let currentLine = "";
