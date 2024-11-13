@@ -41,7 +41,7 @@ header {
 }
 
 .about-fig1 {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
@@ -78,7 +78,7 @@ header {
 }
 
 .caption {
-    padding-top: 2.5%;
+    padding-top: .5%;
     text-align: justify;
     overflow: hidden;
     word-wrap: break-word;
