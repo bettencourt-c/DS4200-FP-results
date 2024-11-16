@@ -80,7 +80,7 @@ header {
 #fig1-chart {
     display: grid;
     place-items: center;
-    max-width: 90%;
+    max-width: 87%;
     padding: 0.5%;
     display: flex;
     flex-direction: column;
