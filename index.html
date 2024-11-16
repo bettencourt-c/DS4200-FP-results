@@ -28,13 +28,17 @@
                 <h1>Understanding where mutations occur on the chromosome</h1>
                     <div class='fig1'>
                         <div class='about-fig1'>  
-                            <p>yapyapyap
+                            <p>To visualize where mutations occur on the human genome, each mutation was plotted at its respective location on the average human genome. To avoid misrepresentation of the prevalence of mutations, the line is located at the start of each mutation. As a result, point mutations and deletions are the same size on this chart, but the length of a deletion or insertion is stated in the hover data. With this visualization, it can be observed that mutations associated with ‘any type of cancer’ are disproportionately located at the ends of chromosomes, which are close to the telomeres. Literature states that telomere dysfunction can lead to increased chromosome instability, including random chromosome breakage and formation of dicentric chromosomes [<a href='https://www.sciencedirect.com/science/article/pii/S1040842806000412?ref=pdf_download&fr=RR-9&rr=8e38c2ae0ff48fcf' target='_blank'>1</a>]. This, in tandem with Figures 1 and 2, could suggest that areas near telomeres may be more susceptible to alterations that can lead to cancer. <br>
+In addition, the investigation of cancerous mutations of the X (23rd) chromosome was completed to determine if there was any link between X-chromosome mutations and sex-based dispositions to cancer. According to the NIH National Cancer Institute, leukemia is slightly more common in men that women [<a href='https://seer.cancer.gov/statfacts/html/leuks.html' target='_blank'>2</a>] and Ozga et al. states that acute myeloid leukemia is more common in men than women [<a href='https://www.nature.com/articles/s41375-023-02068-8' target='_blank'>3</a>]. Megakaryoblastic leukemia, a type of acute myeloid leukemia [<a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6996441/' target='_blank'>4</a>], has a mutation located on the X-chromosome, which is visible in Figure 1. 
                             </p>
+                            <h4>Current and future applications</h4>
+                                    <p>Depending on the validity of the dataset used, this type of visualization can allow the user to quickly find drug families that are responsive to a specific mutation, or to determine if the presence of a specific mutation may be associated with an adverse reaction. 
+                                    </p>
                             <div id='fig1-chart'>
                                 <iframe src='fig1.htm' width='900' height='700' style='border: none;'></iframe>
                                 <div class='caption'>
                                     <p>
-                                        <b>Figure 1. Visual representation of oncogenic mutations on the average human chromosome.</b> The light gray bars represent the average length of each chromosome in base pairs. The chromosomes are ordered from 1-24, with 23 representing the X chromosome and 24 representing the Y chromosome. Each dark gray line represents an oncogenic mutation on the chromosome, and hovering over the line will return the location of the mutation, the associated cancer type, the associated gene, and the type of mutation. To compare a specific type of cancer to all oncogenic mutations, use the drop-down menu to select a cancer type. The resulting dark purple lines are the mutations that are associated with the selected cancer.
+                                        <b>Figure 1. Visual representation of cancerous mutations on the average human chromosome.</b> The light gray bars represent the average length of each chromosome in base pairs. The chromosomes are ordered from 1-24, with 23 representing the X chromosome and 24 representing the Y chromosome. Each dark gray line represents an mutation on the chromosome, and hovering over the line will return the location of the mutation, the associated cancer type, the associated gene, and the type of mutation. To compare a specific type of cancer to all mutations, use the drop-down menu to select a cancer type. The resulting dark purple lines are the mutations that are associated with the selected cancer.
                                     </p>
                                 </div>
                             </div>
@@ -44,8 +48,11 @@
                 <h1 class='header-fig2'>Finding the most common mutation locations</h1>
                     <div class='fig2'>
                         <div class='left2'>
-                            <p>yapyapyap
+                            <p>Although it was qualitatively assumed that a large number of mutations occur at the ends of the chromosomes, it was difficult to determine due to the occurrence of multiple mutations occurring in the same location. As a result, Figure 2 was created to visualize the density of mutation occurrences based on location. Although the X-axis is log transformed, it can be determined that the highest density of mutations occurs below the 10 million base pair mark. This confirmed the need for the density plot, as until the ability to zoom was added to the Y-axis of Figure 1, it was difficult to visualize how many mutations could be overlapping on the same line.
                             </p>  
+                            <h4>Current and future applications</h4>
+                            <p>Although this chart is ideal for confirming that many mutations occur at the top of the chromosome, it is difficult to confirm if the same is true for the end of the chromosome since chromosomes differ in length. To investigate a specific chromosome, the data would need to be filtered before the visualization is created. 
+                            </p>
                         </div>
                         <div class='right2'>
                             <div id='fig2-chart'>
@@ -60,10 +67,12 @@
                     </div>
         
                 
-                <h1 class='header-fig3'>Heredity of oncogenic mutations by type</h1>
+                <h1 class='header-fig3'>Heredity of cancerous mutations by type</h1>
                     <div class='fig3'>
                         <div class='left3'>
-                            <p>yapyapyap
+                            <p>A major concern that people often have regarding cancer is if it is hereditary. Somatic mutations are not heritable, but germline mutations are heritable and can be screened for in genetic counseling. Although it cannot be confirmed if someone’s germline mutations will be passed down, or if someone with an inherited gene mutation will develop cancer, Figure 3 can at least visualize the differences between germline and somatic mutation types. For example, in the somatic column, many mutations that occurred were point mutations. One possible environmental cause for somatic point mutations is exposures to carcinogens, which are known to cause DNA damage such as double and single strand breaks [<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC6195640/' target='_blank'>5</a>]. Although there are DNA repair pathways to correct this damage, mutations can occur when the DNA repair does not occur correctly, leading to mutations such as point mutations [<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC4887314/' target='_blank'>6</a>]. It should be noted that not all point mutations are cancerous, as the average middle-aged person may have over 10^16 point mutations [<a href='https://www.sciencedirect.com/science/article/pii/S0168952510001034?via%3Dihub' target='_blank'>7</a>].
+                                <br>
+                                For germline mutations, the major type of mutation was split between point mutations and deletions, with the next major type of mutation being duplications. Deletions and duplications likely occur during the recombination step of meiosis, a type of cell division that occurs to produce gametes, also known as sperm and egg cells [<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC2669897/' target='_blank'>8</a>]. 
                             </p>
                         </div>
                         <div class='right3'>
@@ -79,10 +88,12 @@
                     </div>
         
                 
-                <h1 class='header-fig4'>Locating the gap between oncogenes and responsive treatments</h1>
+                <h1 class='header-fig4'>Locating the gap between cancer associated genes and responsive treatments</h1>
                     <div class='fig4'>
                         <div class='left4-5'>
-                            <p>yapyapyap
+                            <p>Following the analysis of the location and types of mutations that are associated with cancer, the focus of the rest of this project was directed toward current cancer treatments. For Figure 4, the list of current therapies was filtered to ‘responsive only’, to avoid misrepresenting treatments that do not work for an associated gene. Following this, any gene that had 150 associated mutations or more was plotted (pink), and any responsive treatments to that gene was also plotted (navy). From this, gaps or inadequacies in drug development can be visualized. For example, there are many drugs that are responsive to EGFR and BRAF mutations, but very few for APC. Upon further review of literature, it was found that the APC mutations are associated with 80-85% of sporadic colorectal cancers [<a href='https://pmc.ncbi.nlm.nih.gov/articles/PMC5963831/' target='_blank'>9</a>].
+                                <br>
+                                It should be noted that the number of mutations associated with a gene does not correspond to the frequency of the gene being the cause for cancer development. For example, when looking at the must commonly mutated genes that are associated with the development of cancer, TP53 is the most frequently mutated gene and was mutated in 36.6% of tumors and can be found in Figure 4, but MUC16, which is mutated in 18.9% of tumors, did not pass the 150 mutation threshold [<a href='https://www.nature.com/articles/s41598-023-39608-2#:~:text=2d)%2C%20while%20TP53%20(,2g).&text=Frequency%20of%20cancer%20gene%20mutations%20in%20different%20gene%20classes.,cancers%20of%20different%20tissues28' target='_blank'>10</a>]. Further analysis would be ideal to recreate this visualization with the counts of a gene’s mutation occurrence in tumors.
                             </p>
                         </div>
                         <div class='right4-5'>
@@ -90,7 +101,7 @@
                                 <iframe src='fig4.htm' width='700' height='400' style='border: none;'></iframe>
                                 <div class='caption'>
                                     <p>
-                                        <b>Figure 4. Responsive drugs for genes with 150+ oncogenic mutation occurrences.</b> The stacked bar chart is organized by count of mutations for each gene, with the lower cut-off occurring at 150 mutations per gene. The navy bar represents the number of drugs that are responsive to the gene on the left, while the pink bar represents the number of oncogenic mutations that occur on the given gene. Hovering over the bar will show the respective count of occurrences.
+                                        <b>Figure 4. Responsive drugs for genes with 150+ cancerous mutation occurrences.</b> The stacked bar chart is organized by count of mutations for each gene, with the lower cut-off occurring at 150 mutations per gene. The navy bar represents the number of drugs that are responsive to the gene on the left, while the pink bar represents the number of cancerous mutations that occur on the given gene. Hovering over the bar will show the respective count of occurrences.
                                     </p>
                                 </div>
                             </div>
@@ -98,10 +109,23 @@
                     </div>
                 
                 
-                <h1 class='header-fig5'>Gene to drug connection: Resistance and responsiveness of oncogenic mutations to cancer therapies</h1>
+                <h1 class='header-fig5'>Gene to drug connection: Resistance and responsiveness of cancerous mutations to cancer therapies</h1>
                     <div class='fig5'>
                         <div class='left4-5'>
-                            <p>yapyapyap
+                            <p>Since Figure 4 focused on responsive drugs, it was necessary to provide a visualization of all remaining drugs and their associated response to genes. The possible responses were:
+                                <ul>
+                                    <li><b>Responsive:</b> The treatment improves a patient’s condition</li>
+                                    <li><b>Resistant:</b> The condition does not respond to the treatment as expected</li>
+                                    <li><b>No response:</b> Treatment provides no change in the patient’s condition </li>
+                                    <li><b>Increased toxicity:</b> Treatment causes adverse effects to the patient</li>
+                                    <li><b>Increased toxicity via myelosuppression:</b> Treatment reduced or stopped the bone marrow’s ability to produce blood cells [<a href='https://www.cancer.gov/publications/dictionaries/cancer-terms/def/myelosuppression#:~:text=(MY%2Deh%2Dloh%2D,severe%2C%20it%20is%20called%20myeloablation' target='_blank'>11</a>]</li>
+                                    <li><b>Increased toxicity via haemolytic anemia:</b> Treatment caused the destruction of red blood cells [<a href='https://www.nhlbi.nih.gov/health/anemia/hemolytic-anemia' target='_blank'>12</a>]</li>
+                                    <li><b>Increased toxicity via ototoxicity:</b> Treatment caused damage to the inner ear [<a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5894487/' target='_blank'>13</a>]</li>
+                                    <li><b>Increased toxicity via hyperbilirubinemia:</b> Treatment resulted in high levels of bilirubin in the blood, which is associated with liver damage or dysfunction [<a href='https://www.ncbi.nlm.nih.gov/books/NBK549796/' target='_blank'>14</a>]</li>
+                                </ul>
+                            </p>
+                            <h4>Current and future applications</h4>
+                            <p>Depending on the validity of the dataset used, this type of visualization can allow the user to quickly find drug families that are responsive to a specific mutation, or to determine if the presence of a specific mutation may be associated with an adverse reaction.   
                             </p>
                         </div>
                         <div class='right4-5'>
@@ -117,7 +141,7 @@
         <div class='contact-info'>
             <h3>Contact Me</h3>
             <p>Preferred email: <a href='mailto:catarina.bettencourt.a@gmail.com'>catarina.bettencourt.a@gmail.com</a> | School email: <a href='mailto:bettencourt.c@northeastern.edu'>bettencourt.c@northeastern.edu</a><br>
-            <a href='https://www.linkedin.com/in/catarina-bettencourt/' target='_blank'>LinkedIn</a> | <a href='https://x.com/catarina_bett' target='_blank'>X</a></p>
+            <a href='https://www.linkedin.com/in/catarina-bettencourt/' target='_blank'>LinkedIn</a> | <a href='https://bsky.app/profile/catarinabett.bsky.social' target='_blank'>Blue Sky</a> | <a href='https://x.com/catarina_bett' target='_blank'>X</a></p>
         </div>
     </main>
 
