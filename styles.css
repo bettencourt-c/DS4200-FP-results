@@ -142,6 +142,7 @@ header {
     min-height: 100%; 
     margin: 0;
     border: none;
+    display: block;
 }
 
 .fig2, .fig3, .fig4, .fig5 {
