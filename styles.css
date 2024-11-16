@@ -152,7 +152,7 @@ header {
     overflow: hidden;
 }
 
-.about-fig1 p, .about-fig2 p, .about-fig3 p, .about-fig4 p, .about-fig5 p  {
+.content-container p, .about-fig1 p, .about-fig2 p, .about-fig3 p, .about-fig4 p, .about-fig5 p  {
     display: block;
     max-width: 100%;
     margin: 0;
