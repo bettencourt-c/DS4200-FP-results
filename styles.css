@@ -34,6 +34,15 @@ body {
     text-decoration: underline;
 }
 
+.content-container h1 {
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
 header {
     background: RGB(148,44,60);
     color: RGB(236,236,236);
@@ -99,15 +108,6 @@ header {
     overflow-wrap: break-word;
 }
 
-.about-fig1 h1, .about-fig2 h1, .about-fig3 h1, .about-fig4 h1, .about-fig5 h1,  {
-    max-width: 100%;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
 #fig2-chart, #fig3-chart, #fig4-chart{
     display: block;
     max-width: 100%;
@@ -157,9 +157,12 @@ header {
     max-width: 100%;
     margin: 0;
     padding: 1.5%;
+    padding-top: 0;
     text-align: justify;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    font-size: 1.1em;
+    line-height: 1.5;
 }
 
 .left2 {
