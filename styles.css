@@ -139,8 +139,8 @@ header {
 
 
 #fig1-chart iframe, #fig2-chart iframe, #fig3-chart iframe, #fig4-chart iframe {
-    height: 100vh !important;  
-    width: 100vw !important; 
+    min-height: 100%;  
+    min-width: 100%; 
     margin: 0;
     border: none;
     display: block;
@@ -181,24 +181,24 @@ header {
 }
 
 .left2 {
-    max-width: 52%;
+    max-width: 62%;
     min-height: 100%;
 }
 
 .right2 {
-    max-width: 46%;
+    max-width: 36%;
     min-height: 100%;
     display: grid;
     place-items: center;
 }
 
 .left3 {
-    max-width: 56%;
+    max-width: 60%;
     min-height: 100%;
 }
 
 .right3 {
-    max-width: 42%;
+    max-width: 38%;
     min-height: 100%;
     display: grid;
     place-items: center;
