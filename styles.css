@@ -165,23 +165,35 @@ header {
     line-height: 1.5;
 }
 
+.fig5 ul {
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.fig5 ul li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
 .left2 {
-    max-width: 62%;
+    max-width: 52%;
     min-height: 100%;
 }
 
 .right2 {
-    max-width: 36%;
+    max-width: 46%;
     min-height: 100%;
 }
 
 .left3 {
-    max-width: 66%;
+    max-width: 56%;
     min-height: 100%;
 }
 
 .right3 {
-    max-width: 32%;
+    max-width: 42%;
     min-height: 100%;
 }
 
