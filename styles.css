@@ -25,6 +25,14 @@ body {
     color: RGB(44,45,43);
 }
 
+.content-container a {
+    color: RGB(148,44,60);
+    text-decoration: none;
+}
+
+.content-container a:hover {
+    text-decoration: underline;
+}
 
 header {
     background: RGB(148,44,60);
@@ -95,7 +103,7 @@ header {
     max-width: 100%;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
