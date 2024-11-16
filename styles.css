@@ -78,7 +78,8 @@ header {
 }
 
 #fig1-chart {
-    display: flex;
+    display: grid;
+    place-items: center;
     max-width: 100%;
     padding: 0.5%;
     display: flex;
@@ -141,10 +142,6 @@ header {
     min-width: 100%;  
     min-height: 100%; 
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border: none;
     display: block;
 }
@@ -191,7 +188,8 @@ header {
 .right2 {
     max-width: 46%;
     min-height: 100%;
-    justify-content: center;
+    display: grid;
+    place-items: center;
 }
 
 .left3 {
@@ -202,7 +200,8 @@ header {
 .right3 {
     max-width: 42%;
     min-height: 100%;
-    justify-content: center;
+    display: grid;
+    place-items: center;
 }
 
 .left4-5, .right4-5 {
@@ -276,7 +275,6 @@ nav ul li a:hover {
         width: 100%;         
         height: auto;       
     }
-
 
     .contact-info {
         flex-direction: column;  
