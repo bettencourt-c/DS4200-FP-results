@@ -139,8 +139,8 @@ header {
 
 
 #fig1-chart iframe, #fig2-chart iframe, #fig3-chart iframe, #fig4-chart iframe {
-    height: 100% !important;  
-    width: auto !important; 
+    height: 100vh !important;  
+    width: 100vw !important; 
     margin: 0;
     border: none;
     display: block;
