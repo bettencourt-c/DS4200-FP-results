@@ -77,6 +77,11 @@ header {
     overflow-wrap: break-word;
 }
 
+.about-fig1 h1 {
+    margin: 0;
+    padding: 0;
+}
+
 #fig1-chart {
     display: grid;
     place-items: center;
