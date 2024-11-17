@@ -62,7 +62,7 @@ header {
     background: RGB(236,236,236);
 }
 
-.about-fig1 {
+.about-fig1, .references {
     display: block;
     flex-wrap: wrap;
     flex-direction: column;
