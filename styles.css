@@ -143,14 +143,12 @@ header {
 }
 
 
-#fig1-chart iframe {
+#fig1-chart iframe, #fig4-chart iframe {
     min-height: 100% !important;  
     min-width: 100% !important; 
     margin: 0;
     border: none;
     display: block;
-    /* transform-origin: center center; */
-    /* transform: scale(0.7) !important; */
     object-fit: contain;
     overflow: hidden;
 }
