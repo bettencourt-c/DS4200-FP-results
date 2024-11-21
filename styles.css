@@ -83,16 +83,14 @@ header {
 }
 
 #fig1-chart {
-    display: grid;
+    display: flex;
     place-items: center;
     max-width: 100%;
     padding: 0.5%;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
-    object-fit: contain;
     overflow: hidden;
     margin: auto
 }
@@ -149,8 +147,8 @@ header {
     margin: 0;
     border: none;
     display: block;
-    transform-origin: center center;
-    transform: scale(0.7) !important;
+    /* transform-origin: center center; */
+    /* transform: scale(0.7) !important; */
     object-fit: contain;
     overflow: hidden;
 }
