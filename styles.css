@@ -85,6 +85,7 @@ header {
 #fig1-chart {
     display: flex;
     place-items: center;
+    width: 100%;
     max-width: 100%;
     padding: 0.5%;
     flex-direction: column;
