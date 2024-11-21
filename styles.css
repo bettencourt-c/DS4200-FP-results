@@ -93,7 +93,7 @@ header {
     align-items: center;
     height: auto;
     object-fit: contain;
-    overflow-x: hidden;
+    overflow: hidden;
     margin: auto
 }
 
@@ -125,7 +125,7 @@ header {
     height: auto;
     margin: auto;
     object-fit: contain;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #fig5-chart, #chart-container {
@@ -149,6 +149,7 @@ header {
     margin: 0;
     border: none;
     display: block;
+    overflow: hidden;
 }
 
 .fig2, .fig3, .fig4, .fig5 {
