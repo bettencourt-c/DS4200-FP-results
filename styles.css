@@ -85,7 +85,7 @@ header {
 #fig1-chart {
     display: grid;
     place-items: center;
-    max-width: 87%;
+    max-width: 100%;
     padding: 0.5%;
     display: flex;
     flex-direction: column;
@@ -149,8 +149,6 @@ header {
     margin: 0;
     border: none;
     display: block;
-    transform-origin: center center;
-    transform: scale(0.9) !important;
     object-fit: contain;
     overflow: hidden;
 }
