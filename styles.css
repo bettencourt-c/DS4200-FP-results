@@ -91,7 +91,7 @@ header {
     padding: 0.5%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center !important;
     height: auto;
     overflow: hidden;
     margin: auto
@@ -121,7 +121,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center !important;
     height: auto;
     margin: auto;
     object-fit: contain;
