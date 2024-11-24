@@ -85,14 +85,12 @@ header {
 
 #fig1-chart {
     display: flex;
-    place-items: center;
     width: 100%;
-    max-width: 100%;
     padding: 0.5%;
     flex-direction: column;
     justify-content: center;
-    align-items: center !important;
-    height: auto;
+    align-items: center;
+    height: 100%;
     overflow: hidden;
     margin: auto
 }
@@ -115,16 +113,15 @@ header {
 }
 
 #fig2-chart, #fig3-chart, #fig4-chart{
-    display: block;
-    max-width: 100%;
-    padding: 0.5%;
     display: flex;
+    width: 100%;
+    padding: 0.5%;
     flex-direction: column;
     justify-content: center;
-    align-items: center !important;
-    height: auto;
+    align-items: center;
+    height: 100%;
     margin: auto;
-    object-fit: contain;
+    /* object-fit: contain; */
     overflow: hidden;
 }
 
