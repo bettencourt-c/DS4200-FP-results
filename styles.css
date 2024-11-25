@@ -220,14 +220,20 @@ header {
     place-items: center;
 }
 
-.left4-5{
+.left4{
     max-width: 38%;
     min-height: 100%;
     justify-content: center;
 }
 
-.right4-5 {
+.right4 {
     max-width: 58%;
+    min-height: 100%;
+    justify-content: center;
+}
+
+.left5, .right5 {
+    max-width: 48%;
     min-height: 100%;
     justify-content: center;
 }
