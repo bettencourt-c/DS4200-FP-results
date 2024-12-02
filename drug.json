@@ -1,0 +1,7456 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "Responsive",
+      "children": [
+        {
+          "name": "ABL1",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Kinase inhibitor ",
+              "children": [
+                {
+                  "name": "Asciminib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 3rd gen&Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Ponatinib",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 2nd gen;BCL2 inhibitor",
+              "children": [
+                {
+                  "name": "Dasatinib;Venetoclax",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 2
+                },
+                {
+                  "name": "Nilotinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "ALK inhibitor",
+              "children": [
+                {
+                  "name": "Crizotinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-kinase inhibitor",
+              "children": [
+                {
+                  "name": "Cabozantinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor  3rd gen",
+              "children": [
+                {
+                  "name": "Bosutinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "VEGFR inhibitor",
+              "children": [
+                {
+                  "name": "Axitinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MET inhibitor",
+              "children": [
+                {
+                  "name": "Foretinib ",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Vandetanib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AKT1",
+          "children": [
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Tensirolimus",
+                  "value": 1
+                },
+                {
+                  "name": "Everolimus",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[non-allosteric AKT inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[allosteric AKT inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[AKT inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AKT2",
+          "children": [
+            {
+              "name": "Allosteric AKT inhibitor",
+              "children": [
+                {
+                  "name": "MK2206",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AKT3",
+          "children": [
+            {
+              "name": "[ATP competitive AKT inhibitor]",
+              "children": [
+                {
+                  "name": "[AZD5363,GSK2141795]",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ALK",
+          "children": [
+            {
+              "name": "ALK inhibitor",
+              "children": [
+                {
+                  "name": "Ceritinib",
+                  "value": 5
+                },
+                {
+                  "name": "Crizotinib",
+                  "value": 6
+                },
+                {
+                  "name": "Alectinib",
+                  "value": 2
+                },
+                {
+                  "name": "Lorlatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Entrectinib",
+                  "value": 1
+                },
+                {
+                  "name": "Brigatinib",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "[novel ALK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ALK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ALK&ROS1 inhibitor",
+              "children": [
+                {
+                  "name": "Lorlatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[ALK inhibitor;SRC inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ALK inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ALK inhibitor;IGF1R inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "APC",
+          "children": [
+            {
+              "name": "[Tankyrase inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AR",
+          "children": [
+            {
+              "name": "[AR inhibitor next gen]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[AR inhibitor]",
+              "children": [
+                {
+                  "name": "[Bicalutamide,Enzalutamide,Orterone,4OHtestosterone]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "AR inhibitor",
+              "children": [
+                {
+                  "name": "Enzalutamide",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AR;AR",
+          "children": [
+            {
+              "name": "AR inhibitor",
+              "children": [
+                {
+                  "name": "Enzalutamide",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARAF",
+          "children": [
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sorafenib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AREG",
+          "children": [
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARID1A",
+          "children": [
+            {
+              "name": "[EZH2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ATR inhibitors]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ATM",
+          "children": [
+            {
+              "name": "[DNA-PKc inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[ATR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Temozolomide",
+                  "value": 1
+                },
+                {
+                  "name": "Cisplatin",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "ATR inhibitor",
+              "children": [
+                {
+                  "name": "AZD6738",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ATR",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Temozolomide",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AURKA",
+          "children": [
+            {
+              "name": "[AURK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BAP1",
+          "children": [
+            {
+              "name": "[EZH2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[HDAC inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BARD1",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BCL2",
+          "children": [
+            {
+              "name": "[BCL2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCL2 inhibitor;Proteasome inhibitor",
+              "children": [
+                {
+                  "name": "Venetoclax;Bortezomib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BCL6",
+          "children": [
+            {
+              "name": "HSP90 inhibitor",
+              "children": [
+                {
+                  "name": "Onalespib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BCOR",
+          "children": [
+            {
+              "name": "PKCb inhibitor",
+              "children": [
+                {
+                  "name": "Enzastaurin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BRAF",
+          "children": [
+            {
+              "name": "BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Dabrafenib",
+                  "value": 5
+                },
+                {
+                  "name": "Vemurafenib",
+                  "value": 6
+                },
+                {
+                  "name": "PLX4720",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BRAF inhibitor;MEK inhibitor",
+              "children": [
+                {
+                  "name": "Vemurafenib;Cobimetinib",
+                  "value": 1
+                },
+                {
+                  "name": "Dabrafenib;Trametinib",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "[ERK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor;PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor;HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BRAF inhibitor;EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Encorafenib;Cetuximab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor;EGFR mAb inhibitor +/- PI3K inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor;CDK2/4 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor;BRAF inhibitor ",
+              "children": [
+                {
+                  "name": "Trametinib;Dabrafenib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "TOPO1 inhibitor;BRAF inhibitor;EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Irinotecan;Vemurafenib;Cetuximab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor;BRAF inhibitor;PI3K inhibitor",
+              "children": [
+                {
+                  "name": "Panitumumab;Dabrafenib;BYL719",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor;BRAF inhibitor;MEK inhibitor",
+              "children": [
+                {
+                  "name": "Panitumumab;Dabrafenib;Trametinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "Selumetinib",
+                  "value": 2
+                },
+                {
+                  "name": "Trametinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                },
+                {
+                  "name": "[Trametinib]",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[Pan-RAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sorafenib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BRAF;EGFR",
+          "children": [
+            {
+              "name": "[EGFR TK inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BRCA1",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 2
+                },
+                {
+                  "name": "Talazoparib",
+                  "value": 1
+                },
+                {
+                  "name": "Niraparib",
+                  "value": 1
+                },
+                {
+                  "name": "Rucaparib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                },
+                {
+                  "name": "[Olaparib]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PARP inhibitor;Chemotherapy]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor;VEGF mAb inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib;Bevacizumab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Platinum Agent",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[WEE1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "Veliparib;Cisplatin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BRCA2",
+          "children": [
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "[Olaparib]",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "Veliparib;Cisplatin",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Rucaparib",
+                  "value": 2
+                },
+                {
+                  "name": "Olaparib",
+                  "value": 2
+                },
+                {
+                  "name": "Niraparib",
+                  "value": 1
+                },
+                {
+                  "name": "Talazoparib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Platinum Agent",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "[PD1 Ab inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PARP inhibitor;Chemotherapy]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor;VEGF mAb inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib;Bevacizumab",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BRIP1",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "C15orf55",
+          "children": [
+            {
+              "name": "[BET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CA9",
+          "children": [
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CBL",
+          "children": [
+            {
+              "name": "[JAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CCND1",
+          "children": [
+            {
+              "name": "[CDK4/6 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CCND2",
+          "children": [
+            {
+              "name": "CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "Palbociclib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[CDK4/6 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CCND3",
+          "children": [
+            {
+              "name": "[CDK4/6 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CCNE1",
+          "children": [
+            {
+              "name": "[CDK2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CD274",
+          "children": [
+            {
+              "name": "[PD1 Ab inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PDL1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PDL1 inhibitor",
+              "children": [
+                {
+                  "name": "Atezolizumab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PD1 Ab inhibitor",
+              "children": [
+                {
+                  "name": "Nivolumab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PD-1 blocking antibody",
+              "children": [
+                {
+                  "name": "Pembrolizumab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PD1 Ab",
+              "children": [
+                {
+                  "name": "Pembrolizumab",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CD69",
+          "children": [
+            {
+              "name": "Alkylating agent",
+              "children": [
+                {
+                  "name": "Bendamustine",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDH1",
+          "children": [
+            {
+              "name": "AR inhibitor",
+              "children": [
+                {
+                  "name": "Bicalutamide",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDK12",
+          "children": [
+            {
+              "name": "[PARP inhibitors]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDK4",
+          "children": [
+            {
+              "name": "CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "LEE011",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDK4;RB1",
+          "children": [
+            {
+              "name": "[CDK4 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDK6",
+          "children": [
+            {
+              "name": "[CDK6 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "LEE011",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDKN1A",
+          "children": [
+            {
+              "name": "[CDK2/4 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDKN1B",
+          "children": [
+            {
+              "name": "[CDK2/4 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDKN2A",
+          "children": [
+            {
+              "name": "[CDK4/6 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "AURKA-VEGF inhibitor",
+              "children": [
+                {
+                  "name": "Ilorasertib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDKN2B",
+          "children": [
+            {
+              "name": "[CDK4/6 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDKN2C",
+          "children": [
+            {
+              "name": "[CDK2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHEK1",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CHEK2",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CRLF2",
+          "children": [
+            {
+              "name": "[BET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CSF1R",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CSF3R",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CTNNB1",
+          "children": [
+            {
+              "name": "MTOR inhibitor;Hormonal therapy",
+              "children": [
+                {
+                  "name": "Everolimus;Letrozole",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CYP17A1",
+          "children": [
+            {
+              "name": "AR inhibitor",
+              "children": [
+                {
+                  "name": "Enzalutamide",
+                  "value": 1
+                },
+                {
+                  "name": "Abiraterone",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DDR2",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "EGFR inhibitor 1st gen",
+              "children": [
+                {
+                  "name": "Erlotinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DNMT3A",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Daunorubicin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EGFR",
+          "children": [
+            {
+              "name": "[HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor (alone or in combination)]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "EGFR inhibitor",
+              "children": [
+                {
+                  "name": "Dacomitinib",
+                  "value": 1
+                },
+                {
+                  "name": "Mobocertinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[novel EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR TK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor 3rd gen]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                },
+                {
+                  "name": "[Rociletinib,HM61713]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor&EGFR inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Afatinib",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "Vaccine",
+              "children": [
+                {
+                  "name": "Rindopepimut",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Panitumumab",
+                  "value": 1
+                },
+                {
+                  "name": "Cetuximab",
+                  "value": 2
+                },
+                {
+                  "name": "Amivantamab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR inhibitor 3rd gen",
+              "children": [
+                {
+                  "name": "Osimertinib",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Lapatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR inhibitor 1st gen",
+              "children": [
+                {
+                  "name": "Gefitinib",
+                  "value": 4
+                },
+                {
+                  "name": "Erlotinib",
+                  "value": 9
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor;MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Cetuximab;Sirolimus",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor&EGFR inhibitor 2nd gen;EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Afatinib;Nimotuzumab",
+                  "value": 1
+                },
+                {
+                  "name": "Afatinib;Cetuximab",
+                  "value": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EPHA2",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EPHA3",
+          "children": [
+            {
+              "name": "[EPHA3 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERBB2",
+          "children": [
+            {
+              "name": "ERBB2 mAb inhibitor",
+              "children": [
+                {
+                  "name": "Ado-Trastuzumab Emtansine",
+                  "value": 4
+                },
+                {
+                  "name": "Trastuzumab",
+                  "value": 11
+                },
+                {
+                  "name": "Pertuzumab",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor;Hormone therapy",
+              "children": [
+                {
+                  "name": "Lapatinib;Letrozole",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[ERBB2 mAb inhibitor]",
+              "children": [
+                {
+                  "name": "[Trastuzumab]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ERBB2 inhibitor]",
+              "children": [
+                {
+                  "name": "[Afatinib,Lapatinib,Neratinib]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ERBB2 inhibitor;CDK4/6 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Ado-Trastuzumab Emtansine",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan ERBB inhibitor",
+              "children": [
+                {
+                  "name": "Dacomitinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2&EGFR inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Afatinib",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Tensirolimus",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Neratinib",
+                  "value": 9
+                },
+                {
+                  "name": "Lapatinib",
+                  "value": 4
+                },
+                {
+                  "name": "Margetuximab",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Allosteric AKT inhibitor;ERBB2 mAb inhibitor",
+              "children": [
+                {
+                  "name": "MK2206;Trastuzumab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "Lapatinib;Chemotherapy",
+                  "value": 1
+                },
+                {
+                  "name": "Lapatinib;Capecitabine",
+                  "value": 2
+                },
+                {
+                  "name": "Neratinib;Capecitabine",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 mAb inhibitor;ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Trastuzumab;Lapatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor;ERBB2 inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "Tucatinib;Trastuzumab;Capecitabine",
+                  "value": 2
+                },
+                {
+                  "name": "Pertuzumab;Trastuzumab;Docetaxel",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Antibody-drug conjugate: ERBB2 mAb inhibitor + topoisomerase I inhibitor",
+              "children": [
+                {
+                  "name": "Trastuzumab deruxtecan-nxki",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "Estrogen receptor antagonist;CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "Fulvestrant;Palbociclib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "Palbociclib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 mAb inhibitor;MTOR inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "Trastuzumab;Everolimus;Chemotherapy",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 mAb inhibitor;HSP90 inhibitor",
+              "children": [
+                {
+                  "name": "Trastuzumab;HSP90 inhibitor",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PD-1 blocking antibody;ERBB2 mAb inhibitor",
+              "children": [
+                {
+                  "name": "Pembrolizumab;Trastuzumab",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERBB2;ESR1",
+          "children": [
+            {
+              "name": "[Hormonal therapy]",
+              "children": [
+                {
+                  "name": "[Tamoxifen,Letrozole,Anastrozole,Exemestane,Fulvestrant,LHRH analogues or antagonist]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "Abemaciclib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERBB3",
+          "children": [
+            {
+              "name": "ERBB2&EGFR inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Afatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ERBB3 mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 mAb inhibitor",
+              "children": [
+                {
+                  "name": "Pertuzumab",
+                  "value": 1
+                },
+                {
+                  "name": "Trastuzumab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Lapatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERBB4",
+          "children": [
+            {
+              "name": "ERBB2 inhibitor;ERBB2 inhibitor&EGFR inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Lapatinib;Afatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Lapatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERCC1",
+          "children": [
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERCC2",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERCC4",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERCC6",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EREG",
+          "children": [
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ESR1",
+          "children": [
+            {
+              "name": "[novel ER degrader]",
+              "children": [
+                {
+                  "name": "[GDC-0810]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Hormonal therapy",
+              "children": [
+                {
+                  "name": "Fluvestrant",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EZH2",
+          "children": [
+            {
+              "name": "[EZH2 inhibitor]",
+              "children": [
+                {
+                  "name": "[EPZ-005687,EPZ-6438]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EZH2 inhibitor",
+              "children": [
+                {
+                  "name": "Tazemetostat",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FANCA",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FANCC",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FANCL",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FAT1",
+          "children": [
+            {
+              "name": "[BET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FBXW7",
+          "children": [
+            {
+              "name": "[Steroid]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Sirolimus",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FGF3",
+          "children": [
+            {
+              "name": "FGFR inhibitor",
+              "children": [
+                {
+                  "name": "Lucitanib",
+                  "value": 1
+                },
+                {
+                  "name": "Dovitinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FGF4",
+          "children": [
+            {
+              "name": "FGFR inhibitor",
+              "children": [
+                {
+                  "name": "Lucitanib",
+                  "value": 1
+                },
+                {
+                  "name": "Dovitinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FGFR1",
+          "children": [
+            {
+              "name": "[FGFR inhibitor]",
+              "children": [
+                {
+                  "name": "[Lucitanib]",
+                  "value": 1
+                },
+                {
+                  "name": "Not stated",
+                  "value": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FGFR2",
+          "children": [
+            {
+              "name": "[FGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 8
+                }
+              ]
+            },
+            {
+              "name": "FGFR inhibitor",
+              "children": [
+                {
+                  "name": "Erdafitinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "FGFR kinase inhibitor",
+              "children": [
+                {
+                  "name": "Infigratinib",
+                  "value": 1
+                },
+                {
+                  "name": "Pemigatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 3rd gen&Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Ponatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FGFR3",
+          "children": [
+            {
+              "name": "[FGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 6
+                }
+              ]
+            },
+            {
+              "name": "FGFR inhibitor",
+              "children": [
+                {
+                  "name": "Erdafitinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Proteasome inhibitor",
+              "children": [
+                {
+                  "name": "Bortezomib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FGFR4",
+          "children": [
+            {
+              "name": "[FGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FLCN",
+          "children": [
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FLT1",
+          "children": [
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FLT3",
+          "children": [
+            {
+              "name": "Kinase inhibitor ",
+              "children": [
+                {
+                  "name": "Gilteritinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[FLT3 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[novel FLT3 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "FLT3 inhibitor",
+              "children": [
+                {
+                  "name": "Crenolanib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Lestaurtinib",
+                  "value": 1
+                },
+                {
+                  "name": "Midostaurin",
+                  "value": 4
+                },
+                {
+                  "name": "Quizartinib",
+                  "value": 1
+                },
+                {
+                  "name": "Sorafenib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "Sorafenib;Azacytidine",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FOXA1",
+          "children": [
+            {
+              "name": "[BCL2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FRS2",
+          "children": [
+            {
+              "name": "[FGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GATA3",
+          "children": [
+            {
+              "name": "[Aromatase ihibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GNA11",
+          "children": [
+            {
+              "name": "[PI3K pathway inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "Selumetinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "HDAC inhibitor",
+              "children": [
+                {
+                  "name": "Vorinostat",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GNAQ",
+          "children": [
+            {
+              "name": "[HDAC inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "Selumetinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PKC inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GNAS",
+          "children": [
+            {
+              "name": "[JAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HDAC2",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HGF",
+          "children": [
+            {
+              "name": "Pan-kinase inhibitor",
+              "children": [
+                {
+                  "name": "Cabozantinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HIF1A",
+          "children": [
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HRAS",
+          "children": [
+            {
+              "name": "[MEK inhibitor +/- MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Farnesyltransferase inhibitor",
+              "children": [
+                {
+                  "name": "Tipifarnib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "IDH1",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[BCL2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[IDH1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "IDH1 inhibitor",
+              "children": [
+                {
+                  "name": "AG-120",
+                  "value": 1
+                },
+                {
+                  "name": "Ivosidenib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCL2 inhibitor",
+              "children": [
+                {
+                  "name": "Venetoclax",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "IDH2",
+          "children": [
+            {
+              "name": "IDH2 inhibitor",
+              "children": [
+                {
+                  "name": "AG-221",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCL2 inhibitor",
+              "children": [
+                {
+                  "name": "Venetoclax",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "IL7R;SH2B3",
+          "children": [
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "JAK inhibitor",
+              "children": [
+                {
+                  "name": "Ruxolitinib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "INPP4B",
+          "children": [
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JAK1",
+          "children": [
+            {
+              "name": "JAK inhibitor",
+              "children": [
+                {
+                  "name": "Ruxolitinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JAK2",
+          "children": [
+            {
+              "name": "JAK inhibitor",
+              "children": [
+                {
+                  "name": "Ruxolitinib",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "[JAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[JAK inhibitor (alone or in combination)]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JAK3",
+          "children": [
+            {
+              "name": "[JAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "KCNJ5",
+          "children": [
+            {
+              "name": "Na-Ca chanel blocker",
+              "children": [
+                {
+                  "name": "Amiloride",
+                  "value": 1
+                },
+                {
+                  "name": "Verapamil",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "KDR",
+          "children": [
+            {
+              "name": "[VEGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "KIT",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Nilotinib",
+                  "value": 3
+                },
+                {
+                  "name": "Dasatinib",
+                  "value": 6
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 7
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 6
+                },
+                {
+                  "name": "Sorafenib",
+                  "value": 6
+                }
+              ]
+            },
+            {
+              "name": "[HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 3rd gen&Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Ponatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Pan-kinase inhibitor",
+              "children": [
+                {
+                  "name": "Regorafenib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Kinase inhibitor",
+              "children": [
+                {
+                  "name": "Ripretinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "KRAS",
+          "children": [
+            {
+              "name": "CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "Abemaciclib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[JAK/TBK1/IKK\u03b5 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[BET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Cetuximab",
+                  "value": 1
+                },
+                {
+                  "name": "Panitumumab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[CDK4 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[CDK4/6 inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor;BCL-XL inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor;IGF1R inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor;PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "[MTOR inhibitor;BH3 mimetics]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[HSP90 inhibitor (in combination)]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[pan-RAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[FAS inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[FAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ERK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR mAb inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "Selumetinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy;MEK inhibitor",
+              "children": [
+                {
+                  "name": "Gemcitabine;MEK inhibitor",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor;BCR-ABL inhibitor 3rd gen&Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Trametinib;Ponatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "RAS GTPase family inhibitor",
+              "children": [
+                {
+                  "name": "Sotorasib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy;BCL2 inhibitor",
+              "children": [
+                {
+                  "name": "Decitabine;BCL2 inhibitor",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor;MEK inhibitor",
+              "children": [
+                {
+                  "name": "Sorafenib;MEK inhibitor",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MAP2K1",
+          "children": [
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "Selumetinib",
+                  "value": 1
+                },
+                {
+                  "name": "Trametinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[novel MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor;MEK inhibitor",
+              "children": [
+                {
+                  "name": "Panitumumab;Trametinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ERK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MAP2K1;BRAF",
+          "children": [
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MDM2",
+          "children": [
+            {
+              "name": "[MDM2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MDM4",
+          "children": [
+            {
+              "name": "[MDM2/MDMX inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MET",
+          "children": [
+            {
+              "name": "[MET inhibitor]",
+              "children": [
+                {
+                  "name": "[Crizotinib]",
+                  "value": 1
+                },
+                {
+                  "name": "Not stated",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "name": "Pan-kinase inhibitor;EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Cabozantinib;Panitumumab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MET inhibitor",
+              "children": [
+                {
+                  "name": "Savolitinib",
+                  "value": 1
+                },
+                {
+                  "name": "Tepotinib",
+                  "value": 1
+                },
+                {
+                  "name": "Capmatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ALK inhibitor",
+              "children": [
+                {
+                  "name": "Crizotinib",
+                  "value": 6
+                }
+              ]
+            },
+            {
+              "name": "[BCL2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MET;BRAF",
+          "children": [
+            {
+              "name": "ALK inhibitor;BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Crizotinib;Vemurafenib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MET;ERBB2",
+          "children": [
+            {
+              "name": "ALK inhibitor;ERBB2 mAb inhibitor",
+              "children": [
+                {
+                  "name": "Crizotinib;Trastuzumab",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MKI67",
+          "children": [
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MLL",
+          "children": [
+            {
+              "name": "[BET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "HDAC inhibitor",
+              "children": [
+                {
+                  "name": "Belinostat",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Daunorubicin",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "DOTL1 inhibitor",
+              "children": [
+                {
+                  "name": "EPZ-5676",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MLL2",
+          "children": [
+            {
+              "name": "AR inhibitor",
+              "children": [
+                {
+                  "name": "Bicalutamide",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MPL",
+          "children": [
+            {
+              "name": "[JAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MSH3",
+          "children": [
+            {
+              "name": "[DNA-PKc inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MTOR",
+          "children": [
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Sirolimus",
+                  "value": 1
+                },
+                {
+                  "name": "Everolimus",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "name": "[MTOR kinase inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MYC",
+          "children": [
+            {
+              "name": "[FACT inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PIM inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[BET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[CDK7 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Temozolomide",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MYD88",
+          "children": [
+            {
+              "name": "Kinase inhibitor ",
+              "children": [
+                {
+                  "name": "Zanubrutinib ",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BTK inhibitor",
+              "children": [
+                {
+                  "name": "Ibrutinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NF1",
+          "children": [
+            {
+              "name": "[Pan-RAF inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PD1 Ab inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "VEGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Bevacizumab",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Vinblastine",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 4
+                },
+                {
+                  "name": "Sirolimus",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy;BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Vinblastine;Nilotinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "Trametinib",
+                  "value": 4
+                },
+                {
+                  "name": "Selumetinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Hormonal therapy",
+              "children": [
+                {
+                  "name": "Tamoxifen",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor;MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Sorafenib;Sirolimus",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor;EGFR inhibitor 1st gen",
+              "children": [
+                {
+                  "name": "Sirolimus;Erlotinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "PLX3397",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Nilotinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor;VEGFR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus;Pazopanib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MTOR inhibitor;HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "[AURK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[BRD4 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[KIT inhibitor;MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NF2",
+          "children": [
+            {
+              "name": "[FAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "[PAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "VEGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Bevacizumab",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "HDAC inhibitor",
+              "children": [
+                {
+                  "name": "AR42",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "[HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor;Somatostatin analog",
+              "children": [
+                {
+                  "name": "Everolimus;Octreotide",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "Tensirolimus;Chemotherapy",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Lapatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PDK1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NOTCH1",
+          "children": [
+            {
+              "name": "[Gamma secretase inhibitor;CDK4 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[Gamma secretase inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 6
+                },
+                {
+                  "name": "[Ro4929097,Pf-03084014,Mk-0752]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[NOTCH1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[Gamma secretase inhibitor;MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "NOTCH1 inhibitor",
+              "children": [
+                {
+                  "name": "OMP-52M51",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NOTCH2",
+          "children": [
+            {
+              "name": "NOTCH2 inhibitor",
+              "children": [
+                {
+                  "name": "OMP-59R5",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Gamma secretase inhibitor",
+              "children": [
+                {
+                  "name": "Mk-0752",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[Gamma secretase inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NPM1",
+          "children": [
+            {
+              "name": "[DOT1L inhibitors;MLL1 inhibitors]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Daunorubicin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NRAS",
+          "children": [
+            {
+              "name": "[MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor +/- PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor;MEK inhibitor",
+              "children": [
+                {
+                  "name": "Sorafenib;MEK inhibitor",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ERK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[CDK4/6 inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[Pan-RAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NRG1",
+          "children": [
+            {
+              "name": "ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Lapatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2&EGFR inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Afatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NTRK1",
+          "children": [
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Entrectinib",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "TRK Kinase Inhibitor",
+              "children": [
+                {
+                  "name": "Larotrectinib",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "ALK inhibitor",
+              "children": [
+                {
+                  "name": "Crizotinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[Pan-TK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                },
+                {
+                  "name": "[Entrectinib]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[Pan-TKR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NTRK3",
+          "children": [
+            {
+              "name": "[IGF1R inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Midostaurin",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[novel TRK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PAK1",
+          "children": [
+            {
+              "name": "[PAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PALB2",
+          "children": [
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Mytomycin C",
+                  "value": 2
+                },
+                {
+                  "name": "Platinum Agent",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PBRM1",
+          "children": [
+            {
+              "name": "[EZH2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PDGFB",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PDGFRA",
+          "children": [
+            {
+              "name": "[HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Kinase inhibitor",
+              "children": [
+                {
+                  "name": "Avapritinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 3
+                },
+                {
+                  "name": "Sorafenib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-kinase inhibitor",
+              "children": [
+                {
+                  "name": "Regorafenib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "FLT3 inhibitor",
+              "children": [
+                {
+                  "name": "Crenolanib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PDPK1",
+          "children": [
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PIK3CA",
+          "children": [
+            {
+              "name": "[AKT inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PIK3CA inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor (alone or in combination)]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PI3K inhibitor; Estrogen receptor antagonist",
+              "children": [
+                {
+                  "name": "Alpelisib;Fulvestrant",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PIK3CA;ERBB2",
+          "children": [
+            {
+              "name": "MTOR inhibitor;ERBB2 mAb inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "Everolimus;Trastuzumab;Chemotherapy",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PIK3CB",
+          "children": [
+            {
+              "name": "[MTORC1/2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[AKT inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PIK3R1",
+          "children": [
+            {
+              "name": "[AKT inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PIK3R2",
+          "children": [
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PML",
+          "children": [
+            {
+              "name": "Retinoid",
+              "children": [
+                {
+                  "name": "Tretinoin",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Retinoid;Chemotherapy",
+              "children": [
+                {
+                  "name": "Tretinoin;Arsenic Trioxide",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "PLK1 inhibitor",
+              "children": [
+                {
+                  "name": "Volasertib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "POLE",
+          "children": [
+            {
+              "name": "[PD1 Ab inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PRKCH;ABL1",
+          "children": [
+            {
+              "name": "MEK inhibitor;BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Trametinib;Imatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PTCH1",
+          "children": [
+            {
+              "name": "SHH inhibitor",
+              "children": [
+                {
+                  "name": "Vismodegib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MET inhibitor",
+              "children": [
+                {
+                  "name": "Foretinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[SMO inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PTEN",
+          "children": [
+            {
+              "name": "[PI3K pathway inhibitor;AR antagonist]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PD1 Ab inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PIK3CB inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 2
+                },
+                {
+                  "name": "Sirolimus",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[ATM inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[AKT inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PTEN;ERBB2",
+          "children": [
+            {
+              "name": "MTOR inhibitor;ERBB2 mAb inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "Everolimus;Trastuzumab;Chemotherapy",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PTPRD",
+          "children": [
+            {
+              "name": "[IGF1R inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RAD50;ATM",
+          "children": [
+            {
+              "name": "TOPO1 inhibitor;CHK1/2 inhibitor",
+              "children": [
+                {
+                  "name": "Irinotecan;CHK1/2 inhibitor",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RAD51B",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RAD51C",
+          "children": [
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RAD51D",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RAD54L",
+          "children": [
+            {
+              "name": "PARP inhibitor",
+              "children": [
+                {
+                  "name": "Olaparib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RAF1",
+          "children": [
+            {
+              "name": "[Pan-RAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sorafenib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "U0126",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RB1",
+          "children": [
+            {
+              "name": "[MDM2/MDMX inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "Palbociclib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[HDAC inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RET",
+          "children": [
+            {
+              "name": "RET kinase inhibitor",
+              "children": [
+                {
+                  "name": "Selpercatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 3
+                },
+                {
+                  "name": "Vandetanib",
+                  "value": 3
+                },
+                {
+                  "name": "Nintedanib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Kinase inhibitor ",
+              "children": [
+                {
+                  "name": "Cabozantinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-kinase inhibitor",
+              "children": [
+                {
+                  "name": "Cabozantinib",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "[RET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "Tyrosine kinase inhibitor",
+              "children": [
+                {
+                  "name": "Pralsetinib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RICTOR",
+          "children": [
+            {
+              "name": "[MTORC1/2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RNF43",
+          "children": [
+            {
+              "name": "[Porcupine inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ROS1",
+          "children": [
+            {
+              "name": "ALK inhibitor",
+              "children": [
+                {
+                  "name": "Crizotinib",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "ALK&ROS1 inhibitor",
+              "children": [
+                {
+                  "name": "Lorlatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-kinase inhibitor",
+              "children": [
+                {
+                  "name": "Cabozantinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Entrectinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SERPINB3",
+          "children": [
+            {
+              "name": "[CTLA4 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SETD2",
+          "children": [
+            {
+              "name": "[WEE1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SF3B1",
+          "children": [
+            {
+              "name": "[Spliceosome inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SH2B3",
+          "children": [
+            {
+              "name": "[JAK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SLC44A4",
+          "children": [
+            {
+              "name": "[SLC44A4 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SMARCA1",
+          "children": [
+            {
+              "name": "[EZH2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SMARCA4",
+          "children": [
+            {
+              "name": "[EZH2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SMARCB1",
+          "children": [
+            {
+              "name": "[EZH2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "[HDAC inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SMO",
+          "children": [
+            {
+              "name": "SHH inhibitor",
+              "children": [
+                {
+                  "name": "Vismodegib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SRSF2",
+          "children": [
+            {
+              "name": "[Spliceosome inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STAG2",
+          "children": [
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STK11",
+          "children": [
+            {
+              "name": "Anti-diabetic",
+              "children": [
+                {
+                  "name": "Phenformin",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[SRC inhibitor;PI3K/MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SUZ12",
+          "children": [
+            {
+              "name": "[BET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SYK",
+          "children": [
+            {
+              "name": "[SYK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TERT",
+          "children": [
+            {
+              "name": "Macrocyclic analog",
+              "children": [
+                {
+                  "name": "Eribulin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TMPRSS2",
+          "children": [
+            {
+              "name": "[DNA-PKc inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PARP inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TOP2A",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Anthracyclines",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TP53",
+          "children": [
+            {
+              "name": "Amylin analogue",
+              "children": [
+                {
+                  "name": "Pramlintide",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[WEE1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Mitomycin C",
+                  "value": 1
+                },
+                {
+                  "name": "Gemcitabine",
+                  "value": 1
+                },
+                {
+                  "name": "Decitabine",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Anthracycline antitumor antibiotic",
+              "children": [
+                {
+                  "name": "Doxorubicin",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ATR inhibitor",
+              "children": [
+                {
+                  "name": "AZD6738",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[HSP90 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[HDM2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TSC1",
+          "children": [
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TSC2",
+          "children": [
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Tensirolimus",
+                  "value": 1
+                },
+                {
+                  "name": "Everolimus",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "[SRC inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "U2AF1",
+          "children": [
+            {
+              "name": "[FLT3 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VEGFA",
+          "children": [
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sorafenib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "VHL",
+          "children": [
+            {
+              "name": "Hypoxia-inducible factor inhibitor ",
+              "children": [
+                {
+                  "name": "Belzutifan",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[VEGFR inhibitor]",
+              "children": [
+                {
+                  "name": "[Sorafenib,Sunitinib,Bevacizumab,Axitinib]",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ZNRF3",
+          "children": [
+            {
+              "name": "[Porcupine inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Resistant",
+      "children": [
+        {
+          "name": "ABL1",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Nilotinib",
+                  "value": 2
+                },
+                {
+                  "name": "Dasatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[BCR-ABL inhibitor 2nd gen]",
+              "children": [
+                {
+                  "name": "[Nilotinib,Dasatinib]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 3rd gen",
+              "children": [
+                {
+                  "name": "Bosutinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor  3rd gen",
+              "children": [
+                {
+                  "name": "Bosutinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AKT1",
+          "children": [
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ALK",
+          "children": [
+            {
+              "name": "ALK inhibitor",
+              "children": [
+                {
+                  "name": "Ceritinib",
+                  "value": 1
+                },
+                {
+                  "name": "Crizotinib",
+                  "value": 7
+                },
+                {
+                  "name": "Alectinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AR",
+          "children": [
+            {
+              "name": "AR inhibitor",
+              "children": [
+                {
+                  "name": "Flutamide",
+                  "value": 1
+                },
+                {
+                  "name": "Abiraterone",
+                  "value": 2
+                },
+                {
+                  "name": "Arn-509",
+                  "value": 1
+                },
+                {
+                  "name": "Enzalutamide",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARAF",
+          "children": [
+            {
+              "name": "[BRAF inhibitor;EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ARID1A;ANXA1",
+          "children": [
+            {
+              "name": "ERBB2 mAb inhibitor",
+              "children": [
+                {
+                  "name": "Trastuzumab",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "B2M",
+          "children": [
+            {
+              "name": "[PD1 Ab inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BRAF",
+          "children": [
+            {
+              "name": "[EGFR TK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Vemurafenib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Cetuximab",
+                  "value": 1
+                },
+                {
+                  "name": "Panitumumab",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BTK",
+          "children": [
+            {
+              "name": "BTK inhibitor",
+              "children": [
+                {
+                  "name": "Ibrutinib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CCND1",
+          "children": [
+            {
+              "name": "[SMO inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CRBN",
+          "children": [
+            {
+              "name": "Immunomodulator",
+              "children": [
+                {
+                  "name": "Pomalidomide",
+                  "value": 3
+                },
+                {
+                  "name": "Lenalidomide",
+                  "value": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CTNNB1",
+          "children": [
+            {
+              "name": "[Tankyrase inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CXCR4",
+          "children": [
+            {
+              "name": "Kinase inhibitor ",
+              "children": [
+                {
+                  "name": "Ibrutinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EGFR",
+          "children": [
+            {
+              "name": "EGFR inhibitor 1st gen",
+              "children": [
+                {
+                  "name": "Erlotinib",
+                  "value": 1
+                },
+                {
+                  "name": "Gefitinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Cetuximab",
+                  "value": 2
+                },
+                {
+                  "name": "Panitumumab",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "EGFR inhibitor 3rd gen",
+              "children": [
+                {
+                  "name": "Osimertinib",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor 1st gen]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor&EGFR inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Afatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR inhibitor",
+              "children": [
+                {
+                  "name": "Rociletinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor 2nd gen]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERBB2",
+          "children": [
+            {
+              "name": "ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Neratinib",
+                  "value": 1
+                },
+                {
+                  "name": "Lapatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "3rd generation EGFR inhibitor",
+              "children": [
+                {
+                  "name": "Osimertinib",
+                  "value": 1
+                },
+                {
+                  "name": "Rociletinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERBB3",
+          "children": [
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERBB4",
+          "children": [
+            {
+              "name": "[ERBB2 inhibitor]",
+              "children": [
+                {
+                  "name": "[Lapatinib]",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERCC1",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ESR1",
+          "children": [
+            {
+              "name": "Hormonal therapy",
+              "children": [
+                {
+                  "name": "Tamoxifen",
+                  "value": 1
+                },
+                {
+                  "name": "Exemestane",
+                  "value": 1
+                },
+                {
+                  "name": "Fulvestrant",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[ESR1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FBXW7",
+          "children": [
+            {
+              "name": "[Tubulin inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FGFR2",
+          "children": [
+            {
+              "name": "FGFR inhibitor",
+              "children": [
+                {
+                  "name": "Dovitinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FGFR2;FGFR2",
+          "children": [
+            {
+              "name": "[FGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FGFR3",
+          "children": [
+            {
+              "name": "Proteasome inhibitor",
+              "children": [
+                {
+                  "name": "Bortezomib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[FGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FLT3",
+          "children": [
+            {
+              "name": "BCL2 inhibitor",
+              "children": [
+                {
+                  "name": "Venetoclax",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 3rd gen&Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Ponatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Quizartinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GLI2",
+          "children": [
+            {
+              "name": "[SMO inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HGF;ERBB2",
+          "children": [
+            {
+              "name": "ERBB2 mAb inhibitor",
+              "children": [
+                {
+                  "name": "Trastuzumab",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "IGF1R",
+          "children": [
+            {
+              "name": "EGFR inhibitor 1st gen",
+              "children": [
+                {
+                  "name": "Erlotinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "IGF2",
+          "children": [
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JAK1",
+          "children": [
+            {
+              "name": "[PD1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "JAK2",
+          "children": [
+            {
+              "name": "[PD1 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "KIT",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 7
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "KRAS",
+          "children": [
+            {
+              "name": "[BRAF inhibitor;EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 mAb inhibitor;ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Trastuzumab;Lapatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Cetuximab",
+                  "value": 2
+                },
+                {
+                  "name": "Panitumumab",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EZH2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LRP1B",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Liposomal Doxorubicin",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MAP2K1",
+          "children": [
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Vemurafenib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MAP2K2",
+          "children": [
+            {
+              "name": "[MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MCL1",
+          "children": [
+            {
+              "name": "[Tubulin inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MDM2",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MET",
+          "children": [
+            {
+              "name": "ALK inhibitor",
+              "children": [
+                {
+                  "name": "Crizotinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor 3rd gen]",
+              "children": [
+                {
+                  "name": "Osimertinib",
+                  "value": 1
+                },
+                {
+                  "name": "Rociletinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor 1st gen]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MET;BRAF",
+          "children": [
+            {
+              "name": "BRAF inhibitor;EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Vemurafenib;Panitumumab",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MET;EGFR",
+          "children": [
+            {
+              "name": "[EGFR TK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MET;ERBB2",
+          "children": [
+            {
+              "name": "ERBB2 mAb inhibitor",
+              "children": [
+                {
+                  "name": "Trastuzumab",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "ERBB2 inhibitor",
+              "children": [
+                {
+                  "name": "Lapatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MITF",
+          "children": [
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MTOR",
+          "children": [
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MYCN",
+          "children": [
+            {
+              "name": "[SMO inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NF1",
+          "children": [
+            {
+              "name": "EGFR inhibitor 1st gen",
+              "children": [
+                {
+                  "name": "Erlotinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Dasatinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[Retinoic Acid]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Vemurafenib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NF1;BRAF",
+          "children": [
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "Selumetinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Vemurafenib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NF2;EGFR",
+          "children": [
+            {
+              "name": "EGFR inhibitor 1st gen;EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Erlotinib;Cetuximab",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NRAS",
+          "children": [
+            {
+              "name": "BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Vemurafenib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Cetuximab",
+                  "value": 1
+                },
+                {
+                  "name": "Panitumumab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NTRK1",
+          "children": [
+            {
+              "name": "[Pan-TK inhibitor]",
+              "children": [
+                {
+                  "name": "[Entrectinib]",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "TRK Kinase Inhibitor",
+              "children": [
+                {
+                  "name": "Larotrectinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NTRK3",
+          "children": [
+            {
+              "name": "TRK Kinase Inhibitor",
+              "children": [
+                {
+                  "name": "Larotrectinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PDGFRA",
+          "children": [
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PIK3CA",
+          "children": [
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Cetuximab",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PIK3CB",
+          "children": [
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PLCG2",
+          "children": [
+            {
+              "name": "BTK inhibitor",
+              "children": [
+                {
+                  "name": "Ibrutinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PTEN",
+          "children": [
+            {
+              "name": "PIK3CA inhibitor",
+              "children": [
+                {
+                  "name": "BYL719",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[EGFR mAb inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Panitumumab",
+                  "value": 1
+                },
+                {
+                  "name": "Cetuximab",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PTEN;BRAF",
+          "children": [
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RAC1;BRAF",
+          "children": [
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RAF1;BRAF",
+          "children": [
+            {
+              "name": "[BRAF inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RET",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 3rd gen&Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Ponatinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ROS1",
+          "children": [
+            {
+              "name": "ALK inhibitor",
+              "children": [
+                {
+                  "name": "Crizotinib",
+                  "value": 2
+                },
+                {
+                  "name": "Ceritinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SLC29A1",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Gemcitabine",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SMO",
+          "children": [
+            {
+              "name": "SHH inhibitor",
+              "children": [
+                {
+                  "name": "Vismodegib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STK11",
+          "children": [
+            {
+              "name": "[BET inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STK11;KRAS",
+          "children": [
+            {
+              "name": "[PD1 Ab inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor;Chemotherapy",
+              "children": [
+                {
+                  "name": "MEK inhibitor;Docetaxel",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TP53",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[MDM2 inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "CDK4/CDK6 inhibitor",
+              "children": [
+                {
+                  "name": "Abemaciclib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TUBB3",
+          "children": [
+            {
+              "name": "Taxane",
+              "children": [
+                {
+                  "name": "Paclitaxel",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ZBTB16",
+          "children": [
+            {
+              "name": "[LHRH analogues or antagonist]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "No Responsive",
+      "children": [
+        {
+          "name": "BRAF",
+          "children": [
+            {
+              "name": "BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Vemurafenib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CCND1",
+          "children": [
+            {
+              "name": "CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "Palbociclib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CDK4",
+          "children": [
+            {
+              "name": "CDK4/6 inhibitor",
+              "children": [
+                {
+                  "name": "Palbociclib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EGFR",
+          "children": [
+            {
+              "name": "EGFR inhibitor 1st gen",
+              "children": [
+                {
+                  "name": "Gefitinib",
+                  "value": 3
+                },
+                {
+                  "name": "Erlotinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor 1st gen]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor 2nd gen]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "[EGFR inhibitor 3rd gen]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ERBB2",
+          "children": [
+            {
+              "name": "ERBB2 mAb inhibitor",
+              "children": [
+                {
+                  "name": "Trastuzumab",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "KIT",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 1st gen&KIT inhibitor",
+              "children": [
+                {
+                  "name": "Imatinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "Pan-TK inhibitor",
+              "children": [
+                {
+                  "name": "Sunitinib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "KRAS",
+          "children": [
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "Selumetinib",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "[PI3K pathway inhibitor;MEK inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "name": "EGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Cetuximab",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NF1",
+          "children": [
+            {
+              "name": "MTOR inhibitor;VEGFR mAb inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus;Bevacizumab",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor",
+              "children": [
+                {
+                  "name": "Everolimus",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MTOR inhibitor;EGFR inhibitor 1st gen",
+              "children": [
+                {
+                  "name": "Everolimus;Erlotinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "ALK inhibitor",
+              "children": [
+                {
+                  "name": "Cediranib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "Farnesyltransferase inhibitor",
+              "children": [
+                {
+                  "name": "Tipifarnib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "MEK inhibitor",
+              "children": [
+                {
+                  "name": "Trametinib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NF2",
+          "children": [
+            {
+              "name": "EGFR inhibitor 1st gen",
+              "children": [
+                {
+                  "name": "Erlotinib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PDGFRA",
+          "children": [
+            {
+              "name": "[PDGFR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PIK3CA",
+          "children": [
+            {
+              "name": "[PI3K pathway inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PTEN",
+          "children": [
+            {
+              "name": "[MTOR inhibitor]",
+              "children": [
+                {
+                  "name": "Not stated",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Increased Toxicity",
+      "children": [
+        {
+          "name": "DPYD",
+          "children": [
+            {
+              "name": "Fluoropyrimidine",
+              "children": [
+                {
+                  "name": "Flourouracil",
+                  "value": 3
+                },
+                {
+                  "name": "Capecitabine",
+                  "value": 3
+                },
+                {
+                  "name": "Tegafur",
+                  "value": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UGT1A1",
+          "children": [
+            {
+              "name": "TOPO1 inhibitor",
+              "children": [
+                {
+                  "name": "Irinotecan",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Increased Toxicity (Haemolytic Anemia)",
+      "children": [
+        {
+          "name": "G6PD",
+          "children": [
+            {
+              "name": "BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Dabrafenib",
+                  "value": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "G6PD;G6PD",
+          "children": [
+            {
+              "name": "BRAF inhibitor",
+              "children": [
+                {
+                  "name": "Dabrafenib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Increased Toxicity (Myelosupression)",
+      "children": [
+        {
+          "name": "TPMT",
+          "children": [
+            {
+              "name": "Guanine analog",
+              "children": [
+                {
+                  "name": "Thioguanine",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "name": "Purine analog",
+              "children": [
+                {
+                  "name": "Mercaptopurine",
+                  "value": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Increased Toxicity (Ototoxicity)",
+      "children": [
+        {
+          "name": "TPMT",
+          "children": [
+            {
+              "name": "Chemotherapy",
+              "children": [
+                {
+                  "name": "Cisplatin",
+                  "value": 3
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Increased Toxicity (Hyperbilirubinemia)",
+      "children": [
+        {
+          "name": "UGT1A1",
+          "children": [
+            {
+              "name": "BCR-ABL inhibitor 2nd gen",
+              "children": [
+                {
+                  "name": "Nilotinib",
+                  "value": 2
+                }
+              ]
+            },
+            {
+              "name": "VEGFR inhibitor",
+              "children": [
+                {
+                  "name": "Pazopanib",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
